@@ -1,0 +1,37 @@
+name: CI - Build and Validate
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ✨ Checkout code
+        uses: actions/checkout@v3
+
+      - name: 🐧 Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: 📁 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: ⚒️ Build API Docker image
+        run: |
+          docker build -f Dockerfile_api_full -t ml-api-test .
+
+      - name: ⚒️ Build Frontend Docker image
+        run: |
+          docker build -f Dockerfile_frontend -t ml-frontend-test .
+
+      - name: ✅ Success message
+        run: echo "🌟 CI pipeline complete. Images built with succès."
+

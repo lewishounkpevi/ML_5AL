@@ -1,0 +1,30 @@
+# Dockerfile pour l'app Streamlit frontend
+FROM python:3.11-slim
+
+# Installer les dépendances système
+RUN apt-get update && apt-get install -y build-essential && rm -rf /var/lib/apt/lists/*
+
+# Définir le répertoire de travail
+WORKDIR /app
+
+# Copier les fichiers nécessaires
+COPY frontend/ ./frontend/
+COPY requirements.txt ./
+COPY .env .env
+
+# Injecter la variable d'environnement API_URL (par défaut pour sécurité)
+# ENV API_URL=http://ml_api:8000/predict
+ENV API_URL_PREDICT=http://ml_api:8000/predict
+ENV API_URL_BATCH=http://ml_api:8000/predict_batch
+ENV API_URL_CLUSTER=http://ml_api:8000/cluster
+ENV API_URL_CLUSTER_BATCH=http://ml_api:8000/cluster_batch
+
+# Installer les dépendances Python
+RUN pip install --upgrade pip \
+    && pip install -r requirements.txt
+
+# Exposer le port utilisé par Streamlit
+EXPOSE 8501
+
+# Commande de démarrage
+CMD ["streamlit", "run", "frontend/app.py", "--server.port=8501", "--server.address=0.0.0.0"]

@@ -1,0 +1,10 @@
+# Ignorer le .env local du frontend
+frontend/.env
+
+# Autres fichiers potentiellement sensibles ou inutiles dans l'image
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.DS_Store
+.vscode/
+.env.local
