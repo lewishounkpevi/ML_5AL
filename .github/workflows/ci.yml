@@ -48,7 +48,10 @@ jobs:
 
       
       - name: 🧪 Run all tests (API + ML)
-        run: pytest tests/ -v
+        run: |
+          export PYTHONPATH=$PYTHONPATH:$(pwd)/src
+          pytest tests/ -v
+
 
       - name: ✅ CI terminé avec succès
         run: echo "🚀 Tout est OK !"
