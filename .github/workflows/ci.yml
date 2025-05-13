@@ -10,6 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      API_URL: http://127.0.0.1:8000
+
     steps:
       - name: ✨ Checkout code
         uses: actions/checkout@v3
