@@ -1,0 +1,51 @@
+{
+  "dashboard": {
+    "id": null,
+    "uid": null,
+    "title": "FastAPI Monitoring",
+    "timezone": "browser",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Nombre de requêtes par endpoint",
+        "targets": [
+          {
+            "expr": "sum by (endpoint) (rate(app_requests_total[1m]))",
+            "legendFormat": "{{endpoint}}",
+            "interval": ""
+          }
+        ],
+        "datasource": "Prometheus",
+        "id": 1
+      },
+      {
+        "type": "stat",
+        "title": "Nombre total de requêtes",
+        "targets": [
+          {
+            "expr": "sum(increase(app_requests_total[1m]))",
+            "legendFormat": "Total"
+          }
+        ],
+        "datasource": "Prometheus",
+        "id": 2
+      },
+      {
+        "type": "graph",
+        "title": "Temps de réponse moyen (s)",
+        "targets": [
+          {
+            "expr": "rate(app_request_latency_seconds_sum[1m]) / rate(app_request_latency_seconds_count[1m])",
+            "legendFormat": "Latence moyenne"
+          }
+        ],
+        "datasource": "Prometheus",
+        "id": 3
+      }
+    ],
+    "schemaVersion": 36,
+    "version": 1,
+    "refresh": "5s"
+  },
+  "overwrite": true
+}

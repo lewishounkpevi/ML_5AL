@@ -9,6 +9,11 @@ from app.schema import StudentInput, PredictionOutput
 from app.schema import ClusteringInput, ClusteringOutput
 
 
+from prometheus_client import Counter, Histogram, generate_latest
+from fastapi import Request
+from fastapi.responses import Response
+import time
+
 app = FastAPI()
 
 BASE_DIR = os.path.dirname(__file__)
@@ -188,3 +193,27 @@ def predict_cluster_batch(data: List[ClusteringInput]):
     except Exception as e:
         print("❌ ERREUR CLUSTERING BATCH :", e)
         return []
+
+
+# 🔢 Métriques Prometheus
+REQUEST_COUNT = Counter("app_requests_total", "Total API Requests", ["method", "endpoint"])
+REQUEST_LATENCY = Histogram("app_request_latency_seconds", "Latency of requests in seconds", ["endpoint"])
+
+
+@app.middleware("http")
+async def metrics_middleware(request: Request, call_next):
+    start_time = time.time()
+    response = await call_next(request)
+    process_time = time.time() - start_time
+
+    endpoint = request.url.path
+    REQUEST_COUNT.labels(method=request.method, endpoint=endpoint).inc()
+    REQUEST_LATENCY.labels(endpoint=endpoint).observe(process_time)
+
+    return response
+
+
+@app.get("/metrics")
+def metrics():
+    return Response(content=generate_latest(), media_type="text/plain")
+

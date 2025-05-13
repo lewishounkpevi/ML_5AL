@@ -52,6 +52,7 @@ pytest==7.4.4
 black==24.3.0
 flake8==6.1.0
 
+prometheus-client>=0.17.1
 
 
 

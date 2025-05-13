@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 5s  # fréquence de collecte des métriques
+
+scrape_configs:
+  - job_name: 'fastapi'
+    static_configs:
+      - targets: ['ml_api:8000']  # nom du service Docker
+        labels:
+          app: 'ml-fastapi'
