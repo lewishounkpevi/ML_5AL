@@ -1,5 +1,8 @@
 # 🧠 ESGI Student ML Project
 
+![CI](https://github.com/lewishounkpevi/ML_5AL/actions/workflows/ci.yml/badge.svg)
+
+
 Un projet complet de Machine Learning déployé via **FastAPI** et **Streamlit**, permettant de :
 
 - 🎯 Prédire la réussite ou l'échec d'un étudiant
