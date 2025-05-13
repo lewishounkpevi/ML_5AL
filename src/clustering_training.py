@@ -60,8 +60,11 @@ def train_kmeans_with_silhouette(data_path: str, save_path: str = "app"):
 
 def fit_cluster_model(df, k_range=(2, 10)):
     grade_cols = [
-        "Grade_Math", "Grade_Programming", "Grade_Algorithms",
-        "Grade_Databases", "Grade_Software_Engineering"
+        "Grade_Math",
+        "Grade_Programming",
+        "Grade_Algorithms",
+        "Grade_Databases",
+        "Grade_Software_Engineering",
     ]
     df = df.dropna(subset=grade_cols)
     X = df[grade_cols]

@@ -8,11 +8,13 @@ from src.clustering_training import train_kmeans_with_silhouette, fit_cluster_mo
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 
+
 def generate_df(n=1000, years=5):
     tmp_dir = tempfile.mkdtemp()
     tmp_path = os.path.join(tmp_dir, "students.csv")
     generate_student_dataset(n_students=n, n_years=years, output_csv=tmp_path)
     return pd.read_csv(tmp_path)
+
 
 def test_data_pipeline():
     df = generate_df()
@@ -22,6 +24,7 @@ def test_data_pipeline():
     assert X_train.shape[0] > 0
     assert X_train.shape[1] == X_test.shape[1]
     assert len(y_train) == X_train.shape[0]
+
 
 def test_model_training():
     df = generate_df()
@@ -41,7 +44,6 @@ def test_model_training():
 
     assert acc >= 0 and acc <= 1
     assert hasattr(best_model, "predict")
-
 
 
 def test_train_kmeans_with_silhouette():
@@ -64,8 +66,11 @@ def test_train_kmeans_with_silhouette():
 def test_fit_cluster_model():
     df = generate_df()
     grade_cols = [
-        "Grade_Math", "Grade_Programming", "Grade_Algorithms",
-        "Grade_Databases", "Grade_Software_Engineering"
+        "Grade_Math",
+        "Grade_Programming",
+        "Grade_Algorithms",
+        "Grade_Databases",
+        "Grade_Software_Engineering",
     ]
     df = df.dropna(subset=grade_cols)
     model, labels, score = fit_cluster_model(df[grade_cols], k_range=(2, 4))
