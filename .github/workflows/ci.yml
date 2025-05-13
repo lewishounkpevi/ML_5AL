@@ -13,6 +13,20 @@ jobs:
     env:
       API_URL: http://127.0.0.1:8000
 
+    services:
+      api:
+        image: ml-fastapi-api
+        build:
+          context: .
+          dockerfile: Dockerfile_api_full
+        ports:
+          - 8000:8000
+        options: >
+          --health-cmd="curl --fail http://localhost:8000/docs || exit 1"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
+
     steps:
       - name: ✨ Checkout code
         uses: actions/checkout@v3
@@ -39,11 +53,15 @@ jobs:
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
 
       - name: 🔮 Format check with black
+        run: black --check .
+
+      - name: ⏳ Attendre que l'API soit prête
         run: |
-          black --check . || echo "💡 Some files need formatting"
+          for i in {1..10}; do
+            curl --fail http://127.0.0.1:8000/docs && break || sleep 3
+          done
 
-
-      - name: 🤔 Run unit tests with pytest
+      - name: 🤔 Run unit tests with pytest (avec API_URL)
         run: pytest tests/
 
       - name: ✅ CI terminé avec succès
