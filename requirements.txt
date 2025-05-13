@@ -54,6 +54,8 @@ flake8==6.1.0
 
 prometheus-client>=0.17.1
 
+mlflow>=2.10.0
+
 
 
 

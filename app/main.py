@@ -196,8 +196,12 @@ def predict_cluster_batch(data: List[ClusteringInput]):
 
 
 # 🔢 Métriques Prometheus
-REQUEST_COUNT = Counter("app_requests_total", "Total API Requests", ["method", "endpoint"])
-REQUEST_LATENCY = Histogram("app_request_latency_seconds", "Latency of requests in seconds", ["endpoint"])
+REQUEST_COUNT = Counter(
+    "app_requests_total", "Total API Requests", ["method", "endpoint"]
+)
+REQUEST_LATENCY = Histogram(
+    "app_request_latency_seconds", "Latency of requests in seconds", ["endpoint"]
+)
 
 
 @app.middleware("http")
@@ -216,4 +220,3 @@ async def metrics_middleware(request: Request, call_next):
 @app.get("/metrics")
 def metrics():
     return Response(content=generate_latest(), media_type="text/plain")
-
