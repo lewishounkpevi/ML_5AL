@@ -9,24 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    env:
-      API_URL: http://127.0.0.1:8000
-
-    services:
-      api:
-        image: ml-fastapi-api
-        build:
-          context: .
-          dockerfile: Dockerfile_api_full
-        ports:
-          - 8000:8000
-        options: >
-          --health-cmd="curl --fail http://localhost:8000/docs || exit 1"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=3
-
     steps:
       - name: ✨ Checkout code
         uses: actions/checkout@v3
@@ -43,6 +25,9 @@ jobs:
 
       - name: ⚒️ Build API Docker image
         run: docker build -f Dockerfile_api_full -t ml-api-test .
+
+      - name: 🚀 Run API in background
+        run: docker run -d -p 8000:8000 --name test_api ml-api-test
 
       - name: ⚒️ Build Frontend Docker image
         run: docker build -f Dockerfile_frontend -t ml-frontend-test .
