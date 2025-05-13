@@ -12,12 +12,15 @@ load_dotenv(dotenv_path=env_path)
 
 API_URL = os.getenv("API_URL_CLUSTER_BATCH", "http://localhost:8000/cluster_batch")
 
+
 def run_batch_cluster_app():
     st.title("🧩 Clustering batch d'étudiants")
     st.sidebar.markdown(f"🌐 API utilisée : `{API_URL}`")
-    st.markdown("""
+    st.markdown(
+        """
     Importez un fichier **CSV** contenant les colonnes de notes pour prédire les **clusters** de plusieurs étudiants.
-    """)
+    """
+    )
 
     uploaded_file = st.file_uploader("📂 Choisir un fichier CSV", type=["csv"])
 
@@ -26,8 +29,11 @@ def run_batch_cluster_app():
         st.write("Aperçu des données importées :", df.head())
 
         grade_cols = [
-            "Grade_Math", "Grade_Programming", "Grade_Algorithms",
-            "Grade_Databases", "Grade_Software_Engineering"
+            "Grade_Math",
+            "Grade_Programming",
+            "Grade_Algorithms",
+            "Grade_Databases",
+            "Grade_Software_Engineering",
         ]
 
         if not all(col in df.columns for col in grade_cols):
@@ -36,13 +42,19 @@ def run_batch_cluster_app():
 
         df_valid = df.dropna(subset=grade_cols).copy()
 
-        payload = df_valid[grade_cols].rename(columns={
-            "Grade_Math": "grade_math",
-            "Grade_Programming": "grade_programming",
-            "Grade_Algorithms": "grade_algorithms",
-            "Grade_Databases": "grade_databases",
-            "Grade_Software_Engineering": "grade_software_engineering"
-        }).to_dict(orient="records")
+        payload = (
+            df_valid[grade_cols]
+            .rename(
+                columns={
+                    "Grade_Math": "grade_math",
+                    "Grade_Programming": "grade_programming",
+                    "Grade_Algorithms": "grade_algorithms",
+                    "Grade_Databases": "grade_databases",
+                    "Grade_Software_Engineering": "grade_software_engineering",
+                }
+            )
+            .to_dict(orient="records")
+        )
 
         if st.button("🔎 Lancer le clustering"):
             try:
@@ -51,13 +63,20 @@ def run_batch_cluster_app():
                 clusters = response.json()
 
                 df_valid["Cluster"] = clusters
-                df_final = df.merge(df_valid[["Cluster"]], left_index=True, right_index=True, how="left")
+                df_final = df.merge(
+                    df_valid[["Cluster"]], left_index=True, right_index=True, how="left"
+                )
 
                 st.success("✅ Clustering effectué avec succès !")
                 st.write(df_final.head())
 
-                csv_out = df_final.to_csv(index=False).encode('utf-8')
-                st.download_button("📥 Télécharger le fichier avec clusters", data=csv_out, file_name="cluster_results.csv", mime="text/csv")
+                csv_out = df_final.to_csv(index=False).encode("utf-8")
+                st.download_button(
+                    "📥 Télécharger le fichier avec clusters",
+                    data=csv_out,
+                    file_name="cluster_results.csv",
+                    mime="text/csv",
+                )
 
             except Exception as e:
                 st.error(f"❌ Erreur lors de l'appel à l'API : {e}")

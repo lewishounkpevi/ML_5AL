@@ -6,18 +6,27 @@ from sklearn.preprocessing import StandardScaler
 import joblib
 import os
 
+
 def train_kmeans_with_silhouette(data_path: str, save_path: str = "app"):
     df = pd.read_csv(data_path)
 
     # Nettoyage basique
-    df = df.dropna(subset=[
-        "Grade_Math", "Grade_Programming", "Grade_Algorithms",
-        "Grade_Databases", "Grade_Software_Engineering"
-    ])
+    df = df.dropna(
+        subset=[
+            "Grade_Math",
+            "Grade_Programming",
+            "Grade_Algorithms",
+            "Grade_Databases",
+            "Grade_Software_Engineering",
+        ]
+    )
 
     grade_cols = [
-        "Grade_Math", "Grade_Programming", "Grade_Algorithms",
-        "Grade_Databases", "Grade_Software_Engineering"
+        "Grade_Math",
+        "Grade_Programming",
+        "Grade_Algorithms",
+        "Grade_Databases",
+        "Grade_Software_Engineering",
     ]
     X = df[grade_cols].copy()
 
@@ -47,6 +56,7 @@ def train_kmeans_with_silhouette(data_path: str, save_path: str = "app"):
     joblib.dump(best_model, os.path.join(save_path, "models/cluster_model.joblib"))
     joblib.dump(scaler, os.path.join(save_path, "models/cluster_scaler.joblib"))
     print(f"📦 Modèle et scaler enregistrés dans {save_path}/")
+
 
 # Exemple d'appel
 if __name__ == "__main__":

@@ -11,6 +11,7 @@ load_dotenv(dotenv_path=env_path)
 API_URL = os.getenv("API_URL_PREDICT", "http://localhost:8000/predict")
 print(f"🔍 API_URL_PREDICT utilisé : {API_URL}")
 
+
 def run_single_predict_app():
     st.title("👩‍🏫 Prédiction de réussite d'un étudiant")
     st.sidebar.markdown(f"🌐 API utilisée : `{API_URL}`")
@@ -19,10 +20,17 @@ def run_single_predict_app():
         age = st.slider("👶 Âge", 17, 30, 22)
         academic_year = st.number_input("📅 Année Académique", 2000, 2050, 2024)
         gender = st.selectbox("♂️ Genre", ["Male", "Female"])
-        region = st.selectbox("📍 Région", ["Île-de-France", "Provence-Alpes-Côte d’Azur", "Bretagne", "Normandie"])
+        region = st.selectbox(
+            "📍 Région",
+            ["Île-de-France", "Provence-Alpes-Côte d’Azur", "Bretagne", "Normandie"],
+        )
         residence_type = st.selectbox("Type de résidence", ["Urban", "Rural"])
-        student_income = st.number_input("💰 Revenu étudiant (€)", min_value=0.0, value=400.0)
-        parent_income = st.number_input("🏠 Revenu parental (€)", min_value=0.0, value=2500.0)
+        student_income = st.number_input(
+            "💰 Revenu étudiant (€)", min_value=0.0, value=400.0
+        )
+        parent_income = st.number_input(
+            "🏠 Revenu parental (€)", min_value=0.0, value=2500.0
+        )
 
         st.markdown("### 📚 Notes")
         grade_math = st.slider("Maths", 0.0, 20.0, 12.0)
@@ -46,7 +54,7 @@ def run_single_predict_app():
             "grade_programming": grade_programming,
             "grade_algorithms": grade_algorithms,
             "grade_databases": grade_databases,
-            "grade_software_engineering": grade_se
+            "grade_software_engineering": grade_se,
         }
 
         with st.spinner("Appel à l'API..."):

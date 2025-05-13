@@ -8,37 +8,46 @@ from sklearn.impute import SimpleImputer
 import joblib
 import os
 
-def load_data(path='data/raw_data/students_dataset.csv'):
+
+def load_data(path="data/raw_data/students_dataset.csv"):
     return pd.read_csv(path)
 
+
 def preprocess_data(df):
-    if 'Student_ID' in df.columns:
-        df = df.drop(columns=['Student_ID'])
+    if "Student_ID" in df.columns:
+        df = df.drop(columns=["Student_ID"])
 
-    df = df[df['Status'].isin(['Success', 'Failure'])]
+    df = df[df["Status"].isin(["Success", "Failure"])]
 
-    X = df.drop(columns=['Status'])
-    y = df['Status']
+    X = df.drop(columns=["Status"])
+    y = df["Status"]
 
-    numeric_features = X.select_dtypes(include='number').columns.tolist()
-    categorical_features = X.select_dtypes(include='object').columns.tolist()
+    numeric_features = X.select_dtypes(include="number").columns.tolist()
+    categorical_features = X.select_dtypes(include="object").columns.tolist()
 
-    numeric_pipeline = Pipeline(steps=[
-        ("imputer", SimpleImputer(strategy="median")),
-        ("scaler", StandardScaler())
-    ])
+    numeric_pipeline = Pipeline(
+        steps=[
+            ("imputer", SimpleImputer(strategy="median")),
+            ("scaler", StandardScaler()),
+        ]
+    )
 
-    categorical_pipeline = Pipeline(steps=[
-        ("imputer", SimpleImputer(strategy="most_frequent")),
-        ("encoder", OneHotEncoder(handle_unknown="ignore", sparse_output=False))
-    ])
+    categorical_pipeline = Pipeline(
+        steps=[
+            ("imputer", SimpleImputer(strategy="most_frequent")),
+            ("encoder", OneHotEncoder(handle_unknown="ignore", sparse_output=False)),
+        ]
+    )
 
-    preprocessor = ColumnTransformer(transformers=[
-        ("num", numeric_pipeline, numeric_features),
-        ("cat", categorical_pipeline, categorical_features)
-    ])
+    preprocessor = ColumnTransformer(
+        transformers=[
+            ("num", numeric_pipeline, numeric_features),
+            ("cat", categorical_pipeline, categorical_features),
+        ]
+    )
 
     return preprocessor, X, y
+
 
 def prepare_train_test(preprocessor, X, y, test_size=0.2, random_state=42):
     X_train, X_test, y_train, y_test = train_test_split(
@@ -50,7 +59,10 @@ def prepare_train_test(preprocessor, X, y, test_size=0.2, random_state=42):
 
     return X_train_proc, X_test_proc, y_train, y_test, preprocessor
 
-def save_processed_data(X_train_proc, X_test_proc, y_train, y_test, output_dir="data/processed_data"):
+
+def save_processed_data(
+    X_train_proc, X_test_proc, y_train, y_test, output_dir="data/processed_data"
+):
     os.makedirs(output_dir, exist_ok=True)
 
     # Convert to DataFrame if possible (X is numpy array after transform)
@@ -61,10 +73,13 @@ def save_processed_data(X_train_proc, X_test_proc, y_train, y_test, output_dir="
 
     print(f"💾 Données sauvegardées dans {output_dir}/")
 
+
 if __name__ == "__main__":
     df = load_data("data/raw_data/students_dataset.csv")
     preprocessor, X, y = preprocess_data(df)
     X_train, X_test, y_train, y_test, prep = prepare_train_test(preprocessor, X, y)
 
     save_processed_data(X_train, X_test, y_train, y_test)
-    print(f"✅ Données prêtes : {X_train.shape[0]} lignes d'entraînement, {X_test.shape[0]} lignes de test.")
+    print(
+        f"✅ Données prêtes : {X_train.shape[0]} lignes d'entraînement, {X_test.shape[0]} lignes de test."
+    )

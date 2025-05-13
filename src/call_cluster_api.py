@@ -7,8 +7,9 @@ sample = {
     "grade_programming": 14.0,
     "grade_algorithms": 13.5,
     "grade_databases": 15.0,
-    "grade_software_engineering": 16.0
+    "grade_software_engineering": 16.0,
 }
+
 
 def call_cluster_api(data):
     try:
@@ -19,6 +20,7 @@ def call_cluster_api(data):
     except requests.exceptions.RequestException as e:
         print("❌ Erreur lors de l’appel API :", e)
         return {"cluster": None}
+
 
 if __name__ == "__main__":
     print("🔍 Prédiction du cluster pour l'étudiant :")

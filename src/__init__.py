@@ -18,13 +18,13 @@ from .data_processing import load_data, preprocess_data, prepare_train_test
 
 # Optionnellement, définir __all__ pour limiter ce que 'import *' va inclure
 __all__ = [
-    'generate_student_dataset',
-    'generate_dirty_student_dataset',
-    'clean_student_dataset',
-    'predict_student_status',
-    'notify_done',
-    'train_with_gridsearch',
-    'load_data', 
-    'preprocess_data', 
-    'prepare_train_test',
+    "generate_student_dataset",
+    "generate_dirty_student_dataset",
+    "clean_student_dataset",
+    "predict_student_status",
+    "notify_done",
+    "train_with_gridsearch",
+    "load_data",
+    "preprocess_data",
+    "prepare_train_test",
 ]

@@ -11,17 +11,17 @@ load_dotenv(dotenv_path=env_path)
 
 API_URL = os.getenv("API_URL_BATCH", "http://localhost:8000/predict_batch")
 
+
 def run_batch_predict_app():
     # st.set_page_config(page_title="Prédiction étudiante en batch", layout="centered")
     st.title("🎓 Prédictions de réussite étudiante (batch)")
     st.sidebar.markdown(f"🔗 API utilisée (batch) : `{API_URL}`")
 
-
-
-    
     # API_URL = "http://localhost:8000/predict_batch"
 
-    uploaded_file = st.file_uploader("📂 Importez un fichier CSV contenant les étudiants :", type="csv")
+    uploaded_file = st.file_uploader(
+        "📂 Importez un fichier CSV contenant les étudiants :", type="csv"
+    )
 
     if uploaded_file is not None:
         try:
@@ -43,7 +43,9 @@ def run_batch_predict_app():
                             "grade_programming": float(row["Grade_Programming"]),
                             "grade_algorithms": float(row["Grade_Algorithms"]),
                             "grade_databases": float(row["Grade_Databases"]),
-                            "grade_software_engineering": float(row["Grade_Software_Engineering"])
+                            "grade_software_engineering": float(
+                                row["Grade_Software_Engineering"]
+                            ),
                         }
                         for _, row in df.iterrows()
                     ]
@@ -59,8 +61,13 @@ def run_batch_predict_app():
                         st.success("Prédiction réussie !")
                         st.dataframe(df.head())
 
-                        csv = df.to_csv(index=False).encode('utf-8')
-                        st.download_button("📁 Télécharger les résultats", csv, "predictions_result.csv", "text/csv")
+                        csv = df.to_csv(index=False).encode("utf-8")
+                        st.download_button(
+                            "📁 Télécharger les résultats",
+                            csv,
+                            "predictions_result.csv",
+                            "text/csv",
+                        )
 
                     except Exception as e:
                         st.error(f"Erreur lors de l'appel API : {e}")

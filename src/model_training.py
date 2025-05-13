@@ -8,8 +8,11 @@ from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 from data_processing import load_data, preprocess_data, prepare_train_test
 
-def train_with_gridsearch(model, param_grid, X_train, y_train, X_test, y_test, label_encoder):
-    grid = GridSearchCV(model, param_grid, cv=5, scoring='accuracy', n_jobs=-1)
+
+def train_with_gridsearch(
+    model, param_grid, X_train, y_train, X_test, y_test, label_encoder
+):
+    grid = GridSearchCV(model, param_grid, cv=5, scoring="accuracy", n_jobs=-1)
     grid.fit(X_train, y_train)
 
     best_model = grid.best_estimator_
@@ -23,9 +26,13 @@ def train_with_gridsearch(model, param_grid, X_train, y_train, X_test, y_test, l
     print("✅ Meilleurs hyperparamètres :", grid.best_params_)
     print("✔️ Accuracy :", round(accuracy_score(y_test_labels, y_pred_labels), 4))
     print("📉 Matrice de confusion :\n", confusion_matrix(y_test_labels, y_pred_labels))
-    print("📝 Rapport de classification :\n", classification_report(y_test_labels, y_pred_labels))
+    print(
+        "📝 Rapport de classification :\n",
+        classification_report(y_test_labels, y_pred_labels),
+    )
 
     return best_model, grid.best_params_, accuracy_score(y_test_labels, y_pred_labels)
+
 
 if __name__ == "__main__":
     # Chargement et préparation
@@ -47,14 +54,18 @@ if __name__ == "__main__":
     param_grids = {
         "KNN": {"n_neighbors": [3, 5, 7]},
         "RandomForest": {"n_estimators": [100, 200], "max_depth": [None, 10, 20]},
-        "XGBoost": {"n_estimators": [100, 200], "max_depth": [3, 5], "learning_rate": [0.1, 0.01]}
+        "XGBoost": {
+            "n_estimators": [100, 200],
+            "max_depth": [3, 5],
+            "learning_rate": [0.1, 0.01],
+        },
     }
 
     # Modèles
     models = {
         "KNN": KNeighborsClassifier(),
         "RandomForest": RandomForestClassifier(random_state=42),
-        "XGBoost": XGBClassifier(use_label_encoder=False, eval_metric='logloss')
+        "XGBoost": XGBClassifier(use_label_encoder=False, eval_metric="logloss"),
     }
 
     # Entraînement + sélection du meilleur
@@ -65,7 +76,13 @@ if __name__ == "__main__":
 
     for name in models:
         model, params, acc = train_with_gridsearch(
-            models[name], param_grids[name], X_train, y_train_enc, X_test, y_test_enc, label_encoder
+            models[name],
+            param_grids[name],
+            X_train,
+            y_train_enc,
+            X_test,
+            y_test_enc,
+            label_encoder,
         )
         if acc > best_acc:
             best_acc = acc
