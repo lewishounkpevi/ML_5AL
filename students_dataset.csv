@@ -1,0 +1,1001 @@
+Student_ID,Age,Gender,Student_Income_EUR,Parent_Income_EUR,Residence_Type,Region,Academic_Year,Average_Grade,Status,Grade_Math,Grade_Programming,Grade_Algorithms,Grade_Databases,Grade_Software_Engineering
+1,24,Female,343.0,3509.0,Urban,Île-de-France,2005,11.32,Success,4.5,13.4,9.7,12.8,16.2
+2,21,Female,273.0,2604.0,Suburban,Occitanie,2006,12.96,Success,12.1,11.6,15.1,12.9,13.1
+3,28,Male,438.0,3755.0,Suburban,Hauts-de-France,2005,13.74,Success,18.6,9.2,16.3,12.5,12.1
+4,25,Female,565.0,1932.0,Urban,Grand Est,2006,11.82,Success,14.0,13.0,11.9,9.2,11.0
+5,22,Male,498.0,2267.0,Suburban,Nouvelle-Aquitaine,2007,11.18,Success,13.1,16.4,9.8,4.8,11.8
+6,24,Female,640.0,2809.0,Suburban,Île-de-France,2009,14.7,Success,18.0,12.9,9.8,17.4,15.4
+7,27,Male,829.0,2983.0,Urban,Auvergne-Rhône-Alpes,2008,10.36,Success,9.9,9.5,15.7,8.1,8.6
+8,20,Male,716.0,3077.0,Urban,Hauts-de-France,2007,12.86,Success,13.3,13.6,20.1,6.1,11.2
+9,24,Female,734.0,1790.0,Suburban,Hauts-de-France,2006,12.56,Success,13.7,11.9,9.1,12.4,15.7
+10,28,Other,0.0,1812.0,Urban,Grand Est,2005,10.88,Success,10.4,13.3,8.8,6.9,15.0
+11,28,Female,197.0,2216.0,Suburban,Île-de-France,2008,10.92,Success,10.7,10.9,14.8,9.6,8.6
+12,25,Female,401.0,3685.0,Suburban,Île-de-France,2009,11.22,Success,10.4,10.9,9.7,13.6,11.5
+13,22,Female,442.0,1699.0,Rural,Nouvelle-Aquitaine,2007,13.92,Success,12.3,10.7,15.1,17.3,14.2
+14,21,Male,810.0,2078.0,Suburban,Occitanie,2009,13.8,Success,13.6,14.8,13.4,13.2,14.0
+15,25,Other,380.0,3084.0,Urban,Occitanie,2006,12.16,Success,12.4,10.9,11.9,10.7,14.9
+16,25,Female,767.0,3041.0,Urban,Occitanie,2009,12.6,Success,14.1,10.6,13.3,11.8,13.2
+17,20,Female,404.0,2944.0,Rural,Hauts-de-France,2005,9.74,Failure,6.1,9.2,13.1,6.6,13.7
+18,23,Female,300.0,2565.0,Urban,Hauts-de-France,2007,11.96,Success,11.3,13.4,11.5,10.6,13.0
+19,22,Female,311.0,1648.0,Suburban,Auvergne-Rhône-Alpes,2007,11.18,Success,8.9,12.9,6.7,10.7,16.7
+20,19,Female,1165.0,1947.0,Suburban,Hauts-de-France,2005,11.86,Success,12.9,10.7,12.5,12.5,10.7
+21,25,Male,398.0,3401.0,Urban,Hauts-de-France,2009,13.88,Success,12.9,9.9,16.7,17.8,12.1
+22,29,Female,773.0,3119.0,Urban,Île-de-France,2005,10.34,Success,11.7,17.6,7.2,6.2,9.0
+23,23,Male,210.0,1432.0,Suburban,Auvergne-Rhône-Alpes,2008,9.64,Failure,13.5,6.4,9.1,10.8,8.4
+24,19,Other,955.0,3196.0,Rural,Île-de-France,2005,12.26,Success,15.0,13.5,13.3,6.5,13.0
+25,29,Female,687.0,3547.0,Urban,Nouvelle-Aquitaine,2009,12.02,Success,11.8,15.9,12.1,10.5,9.8
+26,22,Male,668.0,2543.0,Rural,Nouvelle-Aquitaine,2005,9.0,Failure,8.8,1.8,13.2,9.4,11.8
+27,18,Female,703.0,2841.0,Suburban,Auvergne-Rhône-Alpes,2006,11.2,Success,7.3,14.4,9.9,7.5,16.9
+28,29,Female,731.0,3309.0,Rural,Auvergne-Rhône-Alpes,2005,14.06,Success,12.1,11.3,15.5,14.7,16.7
+29,27,Female,802.0,1943.0,Urban,Hauts-de-France,2005,13.82,Success,12.7,12.8,12.1,12.8,18.7
+30,23,Female,450.0,4364.0,Urban,Nouvelle-Aquitaine,2009,13.1,Success,9.1,11.0,14.1,14.4,16.9
+31,29,Male,436.0,3478.0,Rural,Grand Est,2008,14.4,Success,14.2,15.2,13.0,10.4,19.2
+32,26,Female,612.0,2919.0,Rural,Occitanie,2008,12.26,Success,10.6,13.1,12.5,11.8,13.3
+33,18,Female,771.0,2472.0,Urban,Hauts-de-France,2009,11.88,Success,7.0,12.4,13.9,16.8,9.3
+34,28,Male,583.0,2896.0,Suburban,Occitanie,2009,11.74,Success,15.8,9.3,12.6,12.0,9.0
+35,28,Female,793.0,1252.0,Rural,Nouvelle-Aquitaine,2009,14.4,Success,15.4,17.6,8.4,14.4,16.2
+36,27,Male,754.0,4166.0,Urban,Occitanie,2006,11.12,Success,6.0,12.0,15.3,10.1,12.2
+37,29,Male,546.0,3403.0,Suburban,Grand Est,2007,14.04,Success,10.3,18.9,14.5,14.1,12.4
+38,29,Female,163.0,3671.0,Rural,Grand Est,2005,10.9,Success,10.2,17.8,5.7,10.4,10.4
+39,20,Female,474.0,2525.0,Urban,Île-de-France,2009,10.12,Success,16.9,6.7,10.0,6.3,10.7
+40,29,Male,1036.0,2212.0,Urban,Auvergne-Rhône-Alpes,2009,12.4,Success,11.7,10.0,15.1,12.0,13.2
+41,24,Female,685.0,1961.0,Suburban,Occitanie,2009,8.46,Failure,7.5,8.9,6.5,10.6,8.8
+42,21,Male,440.0,3151.0,Urban,Grand Est,2008,12.24,Success,14.6,11.9,14.8,7.1,12.8
+43,26,Male,663.0,2090.0,Urban,Auvergne-Rhône-Alpes,2009,12.32,Success,8.3,12.6,11.6,12.6,16.5
+44,20,Male,769.0,2350.0,Rural,Auvergne-Rhône-Alpes,2005,10.96,Success,11.2,12.7,16.0,9.3,5.6
+45,22,Male,440.0,2937.0,Suburban,Île-de-France,2009,13.12,Success,9.7,15.2,12.0,21.3,7.4
+46,20,Male,909.0,1973.0,Rural,Auvergne-Rhône-Alpes,2005,11.64,Success,10.3,16.5,9.8,7.6,14.0
+47,24,Female,724.0,3335.0,Rural,Auvergne-Rhône-Alpes,2006,13.42,Success,14.8,14.9,12.9,8.4,16.1
+48,22,Female,325.0,2486.0,Urban,Hauts-de-France,2007,12.78,Success,16.6,10.3,11.9,14.6,10.5
+49,26,Male,814.0,1294.0,Urban,Nouvelle-Aquitaine,2008,9.02,Failure,8.2,9.7,9.6,11.6,6.0
+50,24,Female,498.0,1964.0,Urban,Île-de-France,2005,15.08,Success,13.9,12.0,18.7,14.5,16.3
+51,19,Female,555.0,3547.0,Urban,Île-de-France,2006,10.98,Success,9.8,13.3,9.1,13.1,9.6
+52,21,Male,346.0,1750.0,Suburban,Occitanie,2007,9.58,Failure,9.9,11.5,5.3,10.3,10.9
+53,26,Female,758.0,3215.0,Suburban,Auvergne-Rhône-Alpes,2007,11.82,Success,13.5,8.0,16.7,7.9,13.0
+54,29,Other,563.0,2597.0,Urban,Occitanie,2007,11.66,Success,8.9,14.0,10.2,15.2,10.0
+55,19,Male,768.0,2363.0,Urban,Hauts-de-France,2005,10.56,Success,13.4,10.8,11.1,8.1,9.4
+56,27,Male,462.0,4510.0,Urban,Grand Est,2006,11.78,Success,14.2,10.7,10.9,13.7,9.4
+57,26,Female,434.0,1473.0,Suburban,Auvergne-Rhône-Alpes,2009,13.04,Success,10.7,11.8,10.3,14.8,17.6
+58,27,Female,413.0,1908.0,Urban,Grand Est,2006,12.82,Success,16.0,11.3,9.7,11.6,15.5
+59,22,Male,699.0,2481.0,Urban,Nouvelle-Aquitaine,2006,10.58,Success,8.2,10.9,9.0,11.1,13.7
+60,19,Female,430.0,4433.0,Suburban,Hauts-de-France,2006,10.16,Success,16.0,8.2,12.2,9.0,5.4
+61,21,Female,549.0,2483.0,Urban,Auvergne-Rhône-Alpes,2005,11.16,Success,6.2,11.7,10.8,13.4,13.7
+62,29,Female,470.0,2719.0,Urban,Occitanie,2005,12.98,Success,20.1,14.1,14.2,2.9,13.6
+63,29,Female,710.0,2231.0,Suburban,Occitanie,2005,11.86,Success,10.8,12.8,13.4,14.1,8.2
+64,24,Female,166.0,2787.0,Urban,Auvergne-Rhône-Alpes,2006,11.54,Success,8.5,14.8,9.2,12.4,12.8
+65,29,Male,662.0,2281.0,Suburban,Occitanie,2005,11.98,Success,11.3,9.8,12.3,11.3,15.2
+66,25,Male,1033.0,3056.0,Urban,Auvergne-Rhône-Alpes,2007,10.84,Success,8.9,8.2,10.7,12.7,13.7
+67,20,Female,909.0,3119.0,Urban,Île-de-France,2005,10.28,Success,13.2,11.3,9.0,7.9,10.0
+68,18,Female,446.0,2313.0,Urban,Occitanie,2008,11.44,Success,16.1,10.2,14.1,4.8,12.0
+69,21,Male,724.0,1600.0,Rural,Auvergne-Rhône-Alpes,2005,11.74,Success,9.0,10.5,11.6,13.4,14.2
+70,19,Female,675.0,2575.0,Suburban,Auvergne-Rhône-Alpes,2005,13.04,Success,13.7,12.6,10.8,15.9,12.2
+71,25,Female,967.0,3622.0,Rural,Occitanie,2005,9.98,Failure,7.4,10.5,9.4,6.8,15.8
+72,21,Male,0.0,1839.0,Suburban,Île-de-France,2005,10.84,Success,15.1,8.2,8.9,8.8,13.2
+73,19,Female,878.0,2767.0,Suburban,Occitanie,2008,14.02,Success,13.2,10.3,18.0,14.3,14.3
+74,23,Female,533.0,1535.0,Urban,Auvergne-Rhône-Alpes,2009,13.76,Success,15.2,13.0,13.0,13.1,14.5
+75,23,Female,414.0,1668.0,Urban,Île-de-France,2005,12.8,Success,11.6,14.0,8.7,20.9,8.8
+76,27,Female,407.0,3540.0,Urban,Grand Est,2007,12.98,Success,10.7,14.0,12.9,15.2,12.1
+77,21,Male,275.0,3053.0,Urban,Nouvelle-Aquitaine,2008,13.68,Success,14.4,13.3,15.2,14.5,11.0
+78,23,Female,446.0,2779.0,Urban,Occitanie,2009,11.38,Success,8.1,11.5,12.5,9.7,15.1
+79,19,Male,330.0,643.0,Urban,Hauts-de-France,2005,12.62,Success,6.8,13.2,16.1,13.6,13.4
+80,27,Male,645.0,2058.0,Urban,Auvergne-Rhône-Alpes,2009,11.84,Success,12.0,11.9,7.4,16.5,11.4
+81,29,Female,747.0,2985.0,Urban,Île-de-France,2007,9.76,Failure,10.8,12.3,6.0,11.5,8.2
+82,19,Male,536.0,1341.0,Urban,Île-de-France,2008,10.9,Success,13.7,9.2,12.8,11.6,7.2
+83,27,Male,975.0,2217.0,Suburban,Grand Est,2008,13.1,Success,15.3,12.1,12.8,12.4,12.9
+84,21,Female,463.0,3113.0,Rural,Occitanie,2009,9.7,Failure,13.6,13.1,2.0,10.0,9.8
+85,25,Male,523.0,1291.0,Urban,Hauts-de-France,2005,12.98,Success,15.0,13.0,10.1,12.8,14.0
+86,24,Male,482.0,1157.0,Urban,Île-de-France,2006,9.98,Failure,13.0,8.1,9.0,12.7,7.1
+87,29,Female,750.0,1305.0,Urban,Grand Est,2008,13.36,Success,13.5,12.3,7.8,16.4,16.8
+88,26,Female,775.0,2768.0,Rural,Auvergne-Rhône-Alpes,2006,10.76,Success,11.7,7.7,9.0,11.4,14.0
+89,25,Male,724.0,2054.0,Urban,Grand Est,2008,13.2,Success,13.4,12.5,13.8,14.0,12.3
+90,22,Female,569.0,3202.0,Suburban,Occitanie,2005,11.96,Success,12.5,9.9,8.9,11.5,17.0
+91,19,Female,265.0,2597.0,Urban,Grand Est,2005,13.58,Success,13.0,17.1,9.1,13.9,14.8
+92,22,Female,520.0,4004.0,Urban,Île-de-France,2008,10.56,Success,11.5,12.4,7.1,11.2,10.6
+93,25,Female,970.0,1510.0,Urban,Île-de-France,2009,14.1,Success,14.4,14.4,15.8,13.7,12.2
+94,27,Other,853.0,2765.0,Urban,Nouvelle-Aquitaine,2005,12.36,Success,9.9,18.3,13.3,14.2,6.1
+95,26,Female,674.0,1864.0,Rural,Grand Est,2005,9.98,Failure,11.9,9.5,4.5,8.8,15.2
+96,29,Female,504.0,2980.0,Urban,Auvergne-Rhône-Alpes,2007,12.94,Success,15.9,13.3,9.1,15.3,11.1
+97,29,Female,597.0,2596.0,Suburban,Hauts-de-France,2005,9.76,Failure,9.2,8.4,13.6,11.5,6.1
+98,29,Male,505.0,1706.0,Suburban,Hauts-de-France,2007,10.68,Success,5.5,13.0,15.8,10.6,8.5
+99,26,Male,898.0,2374.0,Suburban,Occitanie,2005,13.88,Success,13.1,17.3,14.5,9.9,14.6
+100,18,Female,390.0,2558.0,Urban,Nouvelle-Aquitaine,2005,12.38,Success,11.2,10.1,10.9,12.9,16.8
+101,26,Female,831.0,2021.0,Urban,Grand Est,2009,10.92,Success,15.0,9.3,6.2,12.0,12.1
+102,24,Female,468.0,3082.0,Urban,Auvergne-Rhône-Alpes,2009,12.02,Success,11.6,11.7,14.6,13.1,9.1
+103,26,Male,930.0,1675.0,Urban,Nouvelle-Aquitaine,2005,12.06,Success,10.2,18.1,11.1,13.2,7.7
+104,25,Female,707.0,4173.0,Suburban,Île-de-France,2008,13.66,Success,11.8,14.3,12.2,13.8,16.2
+105,18,Male,413.0,3263.0,Urban,Occitanie,2008,13.94,Success,15.3,9.3,11.5,20.3,13.3
+106,29,Male,523.0,2779.0,Suburban,Grand Est,2005,12.22,Success,13.7,16.4,7.9,12.1,11.0
+107,25,Female,778.0,4776.0,Urban,Hauts-de-France,2008,8.98,Failure,4.7,7.0,13.1,9.8,10.3
+108,25,Female,475.0,2253.0,Rural,Auvergne-Rhône-Alpes,2005,12.72,Success,12.6,18.4,12.7,5.9,14.0
+109,28,Female,606.0,2989.0,Urban,Île-de-France,2009,12.06,Success,12.7,14.6,10.7,8.4,13.9
+110,20,Female,472.0,2678.0,Urban,Nouvelle-Aquitaine,2006,13.52,Success,11.9,17.3,13.4,15.7,9.3
+111,18,Male,1040.0,3138.0,Rural,Occitanie,2007,9.6,Failure,10.2,7.1,7.9,14.2,8.6
+112,25,Female,1083.0,3697.0,Urban,Nouvelle-Aquitaine,2008,11.2,Success,15.6,12.5,11.2,8.0,8.7
+113,20,Male,966.0,2939.0,Rural,Hauts-de-France,2008,13.88,Success,15.7,11.6,12.1,19.4,10.6
+114,20,Female,569.0,3333.0,Urban,Nouvelle-Aquitaine,2009,8.82,Failure,5.4,9.0,6.8,13.0,9.9
+115,18,Female,499.0,2060.0,Urban,Auvergne-Rhône-Alpes,2008,11.96,Success,9.6,8.1,11.8,13.4,16.9
+116,28,Female,405.0,2335.0,Suburban,Île-de-France,2005,13.7,Success,11.6,13.5,14.2,18.7,10.5
+117,22,Female,984.0,3811.0,Rural,Grand Est,2005,13.04,Success,14.8,13.8,11.1,17.2,8.3
+118,27,Female,833.0,2977.0,Urban,Auvergne-Rhône-Alpes,2006,12.52,Success,12.1,15.9,11.9,14.3,8.4
+119,24,Female,845.0,2699.0,Rural,Hauts-de-France,2006,12.0,Success,9.9,10.5,13.7,14.5,11.4
+120,27,Male,538.0,1897.0,Suburban,Occitanie,2006,11.56,Success,14.1,11.6,10.8,14.8,6.5
+121,26,Male,161.0,3273.0,Rural,Hauts-de-France,2005,10.7,Success,11.4,7.9,11.1,11.3,11.8
+122,29,Male,218.0,1875.0,Urban,Hauts-de-France,2006,11.52,Success,11.6,16.6,8.5,12.9,8.0
+123,24,Male,614.0,1639.0,Urban,Nouvelle-Aquitaine,2006,13.06,Success,11.9,12.2,12.0,13.7,15.5
+124,26,Female,469.0,2592.0,Rural,Occitanie,2005,12.56,Success,13.7,14.2,11.0,11.6,12.3
+125,25,Female,441.0,578.0,Rural,Auvergne-Rhône-Alpes,2009,13.28,Success,11.1,14.3,13.5,9.1,18.4
+126,29,Male,686.0,2989.0,Urban,Hauts-de-France,2008,13.34,Success,14.1,16.4,13.7,11.2,11.3
+127,19,Male,853.0,2802.0,Urban,Auvergne-Rhône-Alpes,2007,9.46,Failure,11.8,9.5,14.4,9.0,2.6
+128,18,Male,425.0,2218.0,Urban,Grand Est,2005,12.4,Success,8.8,14.1,10.5,12.2,16.4
+129,24,Female,274.0,2290.0,Suburban,Nouvelle-Aquitaine,2005,9.9,Failure,11.9,11.9,5.5,6.7,13.5
+130,24,Female,431.0,2405.0,Urban,Auvergne-Rhône-Alpes,2007,13.7,Success,9.0,18.3,14.2,13.0,14.0
+131,25,Male,339.0,1869.0,Urban,Occitanie,2007,10.2,Success,12.1,9.5,13.3,7.1,9.0
+132,22,Female,748.0,2648.0,Urban,Hauts-de-France,2006,12.56,Success,14.5,15.5,10.1,10.8,11.9
+133,20,Female,599.0,2300.0,Suburban,Grand Est,2007,12.34,Success,8.8,13.1,13.7,13.5,12.6
+134,29,Male,1070.0,2590.0,Urban,Occitanie,2008,11.88,Success,13.1,12.9,7.7,14.4,11.3
+135,25,Female,784.0,2375.0,Urban,Nouvelle-Aquitaine,2008,11.52,Success,9.5,12.2,15.1,14.0,6.8
+136,23,Female,1053.0,2218.0,Suburban,Grand Est,2008,14.58,Success,12.6,16.0,11.0,13.0,20.3
+137,28,Male,249.0,2723.0,Suburban,Grand Est,2008,12.0,Success,14.6,12.8,9.5,8.6,14.5
+138,20,Male,0.0,3125.0,Urban,Grand Est,2008,10.26,Success,5.6,7.4,10.1,14.9,13.3
+139,18,Male,661.0,2080.0,Urban,Hauts-de-France,2006,12.06,Success,8.7,15.7,11.3,8.7,15.9
+140,20,Male,631.0,2816.0,Suburban,Île-de-France,2005,13.44,Success,10.9,15.1,12.0,15.3,13.9
+141,22,Female,569.0,2916.0,Rural,Grand Est,2007,12.54,Success,12.9,13.8,12.1,13.9,10.0
+142,20,Female,624.0,1473.0,Suburban,Occitanie,2005,12.52,Success,11.5,8.6,10.7,16.1,15.7
+143,18,Male,319.0,3281.0,Rural,Occitanie,2007,12.06,Success,11.9,9.1,12.6,12.1,14.6
+144,22,Male,741.0,4145.0,Suburban,Nouvelle-Aquitaine,2006,11.22,Success,18.1,6.4,12.0,9.5,10.1
+145,27,Male,784.0,2430.0,Suburban,Auvergne-Rhône-Alpes,2006,10.88,Success,8.4,13.4,10.1,8.1,14.4
+146,24,Male,300.0,2363.0,Urban,Auvergne-Rhône-Alpes,2009,10.56,Success,15.4,8.0,9.6,8.5,11.3
+147,24,Female,512.0,2330.0,Urban,Île-de-France,2009,10.26,Success,11.0,6.8,13.8,7.1,12.6
+148,28,Male,527.0,2996.0,Urban,Hauts-de-France,2006,14.32,Success,13.6,15.8,13.6,14.8,13.8
+149,26,Male,432.0,2909.0,Urban,Hauts-de-France,2006,15.24,Success,18.4,14.3,12.2,15.2,16.1
+150,27,Male,310.0,1227.0,Suburban,Grand Est,2007,12.74,Success,14.1,11.0,14.8,13.7,10.1
+151,27,Female,603.0,1807.0,Urban,Île-de-France,2006,11.16,Success,13.1,11.6,6.1,11.9,13.1
+152,29,Male,665.0,2906.0,Suburban,Nouvelle-Aquitaine,2005,13.62,Success,16.8,4.8,10.3,18.2,18.0
+153,20,Female,447.0,2384.0,Urban,Nouvelle-Aquitaine,2007,12.38,Success,15.4,14.8,8.5,11.7,11.5
+154,24,Male,327.0,1567.0,Urban,Auvergne-Rhône-Alpes,2006,12.72,Success,9.6,9.9,18.8,12.7,12.6
+155,18,Female,703.0,3700.0,Rural,Nouvelle-Aquitaine,2007,13.98,Success,12.9,13.0,14.1,11.9,18.0
+156,21,Female,408.0,1860.0,Urban,Grand Est,2007,9.6,Failure,6.8,4.5,11.8,11.0,13.9
+157,21,Male,523.0,2529.0,Urban,Occitanie,2008,12.24,Success,10.4,14.9,14.4,13.9,7.6
+158,22,Male,491.0,2363.0,Urban,Nouvelle-Aquitaine,2009,11.52,Success,12.9,9.7,15.3,10.1,9.6
+159,24,Female,911.0,1637.0,Rural,Île-de-France,2007,11.48,Success,10.2,7.9,15.3,9.9,14.1
+160,24,Female,420.0,2648.0,Urban,Grand Est,2007,13.18,Success,12.8,11.0,14.8,14.0,13.3
+161,28,Male,1031.0,2814.0,Suburban,Nouvelle-Aquitaine,2008,11.28,Success,12.0,10.2,11.2,10.5,12.5
+162,21,Female,788.0,2126.0,Urban,Hauts-de-France,2006,14.04,Success,13.6,15.2,10.5,12.4,18.5
+163,24,Female,1055.0,2231.0,Suburban,Nouvelle-Aquitaine,2007,10.32,Success,10.7,10.7,9.1,11.0,10.1
+164,28,Female,766.0,2980.0,Urban,Hauts-de-France,2008,12.52,Success,9.2,16.1,13.5,12.0,11.8
+165,20,Male,545.0,920.0,Suburban,Grand Est,2005,11.4,Success,16.4,13.0,11.5,10.0,6.1
+166,23,Female,371.0,1824.0,Rural,Nouvelle-Aquitaine,2008,12.3,Success,10.5,14.7,10.7,10.1,15.5
+167,29,Male,511.0,2671.0,Suburban,Hauts-de-France,2009,11.14,Success,14.0,12.0,10.6,9.5,9.6
+168,19,Female,972.0,2079.0,Suburban,Occitanie,2009,15.64,Success,16.3,15.8,16.4,14.5,15.2
+169,27,Male,588.0,2067.0,Suburban,Auvergne-Rhône-Alpes,2006,12.66,Success,12.5,8.5,14.9,12.5,14.9
+170,26,Male,765.0,3221.0,Suburban,Grand Est,2006,14.6,Success,9.4,12.3,17.5,14.8,19.0
+171,22,Male,652.0,1993.0,Urban,Hauts-de-France,2009,12.98,Success,11.5,10.8,13.6,15.1,13.9
+172,23,Female,662.0,4083.0,Suburban,Île-de-France,2009,13.0,Success,15.1,16.2,12.2,10.6,10.9
+173,29,Male,672.0,1096.0,Urban,Nouvelle-Aquitaine,2007,13.8,Success,12.6,16.5,11.9,14.6,13.4
+174,29,Male,724.0,730.0,Urban,Hauts-de-France,2009,10.2,Success,8.4,12.0,8.9,12.0,9.7
+175,29,Male,396.0,3203.0,Urban,Hauts-de-France,2006,10.92,Success,13.8,8.1,8.2,11.5,13.0
+176,29,Female,531.0,1713.0,Urban,Hauts-de-France,2009,13.66,Success,14.3,13.3,13.5,15.8,11.4
+177,21,Other,677.0,1726.0,Urban,Auvergne-Rhône-Alpes,2006,10.52,Success,10.9,7.0,9.2,13.7,11.8
+178,28,Male,641.0,3288.0,Suburban,Île-de-France,2005,12.7,Success,13.8,16.9,12.6,10.9,9.3
+179,27,Female,485.0,2102.0,Urban,Île-de-France,2009,13.0,Success,12.7,10.6,15.3,13.5,12.9
+180,24,Female,704.0,3228.0,Urban,Occitanie,2006,11.2,Success,11.4,11.9,10.0,8.2,14.5
+181,29,Female,407.0,2012.0,Suburban,Auvergne-Rhône-Alpes,2008,11.16,Success,8.1,10.0,18.0,12.7,7.0
+182,26,Male,294.0,2790.0,Urban,Hauts-de-France,2007,10.18,Success,15.2,9.3,9.0,7.5,9.9
+183,24,Male,674.0,2091.0,Suburban,Grand Est,2006,13.0,Success,14.3,14.2,15.0,9.0,12.5
+184,18,Male,300.0,1764.0,Suburban,Auvergne-Rhône-Alpes,2009,11.48,Success,13.8,11.5,13.3,13.8,5.0
+185,18,Male,670.0,3884.0,Rural,Auvergne-Rhône-Alpes,2009,13.1,Success,16.6,12.1,15.6,4.0,17.2
+186,26,Male,111.0,3393.0,Suburban,Île-de-France,2005,11.96,Success,14.8,9.0,8.7,17.4,9.9
+187,28,Female,419.0,1919.0,Urban,Occitanie,2008,14.26,Success,14.1,14.6,18.9,14.5,9.2
+188,26,Male,518.0,2357.0,Urban,Occitanie,2006,9.94,Failure,5.4,14.9,11.5,6.5,11.4
+189,21,Male,198.0,3681.0,Urban,Auvergne-Rhône-Alpes,2008,14.52,Success,15.6,11.4,14.0,19.2,12.4
+190,26,Female,507.0,1709.0,Rural,Auvergne-Rhône-Alpes,2005,14.8,Success,12.2,15.8,16.3,20.0,9.7
+191,20,Male,896.0,1753.0,Urban,Nouvelle-Aquitaine,2007,12.24,Success,12.9,11.7,10.2,11.5,14.9
+192,24,Female,282.0,2876.0,Urban,Hauts-de-France,2008,12.84,Success,13.0,14.3,14.5,9.2,13.2
+193,23,Female,514.0,4316.0,Urban,Île-de-France,2005,11.54,Success,14.3,7.1,9.7,17.1,9.5
+194,25,Male,1026.0,2543.0,Rural,Hauts-de-France,2006,13.22,Success,15.4,13.1,16.2,11.0,10.4
+195,28,Female,335.0,3340.0,Urban,Grand Est,2007,10.94,Success,13.9,11.2,9.7,12.5,7.4
+196,26,Female,949.0,1686.0,Rural,Grand Est,2009,12.38,Success,13.4,12.5,12.1,15.7,8.2
+197,22,Female,530.0,2789.0,Urban,Occitanie,2005,12.52,Success,12.7,12.3,12.9,11.5,13.2
+198,18,Female,625.0,2212.0,Urban,Île-de-France,2009,9.9,Failure,1.9,12.4,14.4,11.3,9.5
+199,20,Female,923.0,3993.0,Urban,Hauts-de-France,2007,13.68,Success,11.1,13.8,17.9,8.2,17.4
+200,27,Female,479.0,3779.0,Rural,Occitanie,2005,10.48,Success,9.2,10.3,10.6,10.1,12.2
+201,29,Male,758.0,4324.0,Rural,Grand Est,2005,12.76,Success,15.6,13.7,15.4,11.2,7.9
+202,25,Male,821.0,1944.0,Urban,Auvergne-Rhône-Alpes,2007,12.88,Success,13.9,15.7,17.9,8.3,8.6
+203,28,Male,437.0,2528.0,Urban,Île-de-France,2006,10.94,Success,10.6,7.8,12.5,8.6,15.2
+204,23,Female,410.0,2800.0,Suburban,Île-de-France,2005,10.96,Success,10.9,9.7,10.3,12.1,11.8
+205,25,Male,543.0,1975.0,Urban,Hauts-de-France,2007,9.78,Failure,10.8,9.8,6.8,6.5,15.0
+206,26,Female,551.0,2605.0,Urban,Nouvelle-Aquitaine,2008,11.48,Success,10.8,8.7,17.6,9.4,10.9
+207,21,Female,330.0,3227.0,Urban,Hauts-de-France,2009,11.54,Success,7.7,10.6,11.3,17.8,10.3
+208,18,Female,440.0,2060.0,Urban,Auvergne-Rhône-Alpes,2005,11.5,Success,7.0,15.1,9.0,11.0,15.4
+209,18,Other,0.0,1937.0,Urban,Auvergne-Rhône-Alpes,2008,11.26,Success,12.1,16.3,7.9,10.6,9.4
+210,27,Female,516.0,1884.0,Urban,Occitanie,2005,12.2,Success,15.2,12.3,9.0,11.0,13.5
+211,21,Female,824.0,1425.0,Urban,Île-de-France,2006,11.72,Success,10.4,11.0,14.8,11.0,11.4
+212,29,Male,183.0,3183.0,Rural,Occitanie,2007,14.16,Success,12.9,14.4,15.2,13.7,14.6
+213,24,Female,484.0,1935.0,Urban,Auvergne-Rhône-Alpes,2005,12.82,Success,14.2,4.9,14.0,13.5,17.5
+214,19,Male,1211.0,1851.0,Suburban,Nouvelle-Aquitaine,2007,10.36,Success,9.0,8.8,12.4,10.8,10.8
+215,20,Male,594.0,2923.0,Urban,Île-de-France,2005,9.4,Failure,11.9,5.0,8.3,11.4,10.4
+216,18,Female,939.0,2492.0,Suburban,Auvergne-Rhône-Alpes,2006,11.7,Success,10.0,8.8,9.8,15.9,14.0
+217,22,Female,347.0,2080.0,Urban,Nouvelle-Aquitaine,2006,10.3,Success,16.8,9.7,8.7,7.5,8.8
+218,18,Male,712.0,3149.0,Suburban,Hauts-de-France,2008,15.08,Success,16.7,16.4,13.7,11.8,16.8
+219,25,Female,304.0,2048.0,Urban,Grand Est,2006,10.04,Success,9.0,3.7,8.8,12.4,16.3
+220,18,Female,700.0,758.0,Rural,Auvergne-Rhône-Alpes,2007,10.5,Success,13.2,10.7,9.9,9.7,9.0
+221,28,Female,811.0,3567.0,Urban,Grand Est,2006,11.9,Success,15.2,13.9,11.4,11.7,7.3
+222,18,Female,751.0,1837.0,Urban,Occitanie,2005,10.5,Success,14.5,13.2,7.0,9.3,8.5
+223,19,Female,514.0,1925.0,Rural,Grand Est,2006,12.64,Success,12.2,16.4,12.1,13.9,8.6
+224,19,Other,669.0,1928.0,Suburban,Auvergne-Rhône-Alpes,2007,12.5,Success,15.9,12.5,11.7,8.0,14.4
+225,29,Female,671.0,2548.0,Urban,Grand Est,2005,13.96,Success,9.3,13.1,15.6,15.2,16.6
+226,23,Female,766.0,2281.0,Rural,Île-de-France,2008,10.66,Success,11.1,6.5,9.5,11.8,14.4
+227,24,Other,569.0,3290.0,Urban,Auvergne-Rhône-Alpes,2008,9.7,Failure,9.4,9.0,8.1,10.7,11.3
+228,22,Female,833.0,3816.0,Urban,Nouvelle-Aquitaine,2008,10.78,Success,14.3,6.7,10.9,9.0,13.0
+229,18,Male,959.0,1957.0,Rural,Grand Est,2005,11.44,Success,10.3,13.7,8.7,15.1,9.4
+230,18,Male,521.0,1750.0,Urban,Île-de-France,2008,12.38,Success,11.5,13.0,12.1,10.0,15.3
+231,20,Male,612.0,2082.0,Rural,Occitanie,2006,11.0,Success,13.9,12.9,6.4,8.5,13.3
+232,19,Male,374.0,2851.0,Urban,Occitanie,2005,12.64,Success,14.1,9.4,10.2,15.2,14.3
+233,22,Female,685.0,2407.0,Suburban,Grand Est,2005,9.34,Failure,9.3,9.1,9.2,9.3,9.8
+234,29,Female,687.0,2100.0,Suburban,Occitanie,2005,12.94,Success,15.2,12.6,13.7,11.7,11.5
+235,27,Female,614.0,1462.0,Rural,Nouvelle-Aquitaine,2009,12.34,Success,13.4,10.0,9.6,14.5,14.2
+236,23,Male,633.0,733.0,Suburban,Auvergne-Rhône-Alpes,2007,10.66,Success,8.8,8.9,6.8,12.5,16.3
+237,24,Female,1080.0,1696.0,Urban,Île-de-France,2009,11.46,Success,8.0,10.5,11.4,17.2,10.2
+238,21,Female,0.0,3512.0,Suburban,Hauts-de-France,2009,11.76,Success,12.0,10.0,13.0,9.5,14.3
+239,24,Female,476.0,2849.0,Urban,Grand Est,2009,11.3,Success,14.6,9.4,11.2,11.4,9.9
+240,28,Female,514.0,2347.0,Suburban,Occitanie,2007,12.62,Success,14.6,8.3,10.2,11.6,18.4
+241,25,Female,964.0,3084.0,Rural,Auvergne-Rhône-Alpes,2009,12.22,Success,13.1,13.3,10.0,13.9,10.8
+242,28,Male,719.0,1470.0,Urban,Hauts-de-France,2008,14.18,Success,12.1,16.7,12.3,15.9,13.9
+243,18,Female,725.0,2545.0,Suburban,Nouvelle-Aquitaine,2005,11.88,Success,13.5,11.9,9.3,12.2,12.5
+244,23,Male,915.0,1071.0,Urban,Occitanie,2005,12.9,Success,9.4,12.7,11.0,11.6,19.8
+245,25,Male,555.0,2777.0,Urban,Occitanie,2006,13.06,Success,17.1,13.6,14.3,7.6,12.7
+246,22,Female,763.0,2708.0,Urban,Île-de-France,2008,12.2,Success,17.0,13.1,8.1,12.3,10.5
+247,21,Male,467.0,2727.0,Suburban,Nouvelle-Aquitaine,2007,11.72,Success,13.3,9.5,11.9,10.0,13.9
+248,19,Female,337.0,3434.0,Urban,Nouvelle-Aquitaine,2005,12.84,Success,12.6,17.2,6.6,13.9,13.9
+249,23,Male,1049.0,3121.0,Suburban,Grand Est,2009,11.1,Success,10.8,9.7,12.7,10.8,11.5
+250,23,Female,692.0,1533.0,Urban,Hauts-de-France,2006,11.32,Success,13.6,13.9,9.1,11.3,8.7
+251,28,Male,761.0,3446.0,Suburban,Île-de-France,2006,11.32,Success,9.9,13.6,15.1,7.6,10.4
+252,18,Other,330.0,2332.0,Urban,Grand Est,2005,8.04,Failure,5.3,6.1,7.6,6.6,14.6
+253,26,Female,728.0,924.0,Rural,Île-de-France,2008,10.5,Success,3.9,10.9,13.3,17.6,6.8
+254,29,Male,1045.0,2413.0,Urban,Nouvelle-Aquitaine,2006,12.24,Success,9.6,12.2,15.7,12.4,11.3
+255,28,Female,531.0,3018.0,Suburban,Île-de-France,2005,12.4,Success,12.5,12.4,8.9,13.2,15.0
+256,23,Other,286.0,1689.0,Urban,Île-de-France,2008,11.26,Success,13.0,12.9,9.4,9.3,11.7
+257,20,Male,646.0,3566.0,Suburban,Île-de-France,2005,13.42,Success,10.5,14.3,9.2,14.6,18.5
+258,21,Male,341.0,1761.0,Urban,Auvergne-Rhône-Alpes,2005,11.16,Success,12.4,12.0,10.5,14.1,6.8
+259,29,Female,211.0,2115.0,Suburban,Auvergne-Rhône-Alpes,2008,11.32,Success,11.2,13.1,13.6,9.6,9.1
+260,28,Female,416.0,1968.0,Urban,Hauts-de-France,2008,9.02,Failure,9.0,11.9,10.3,8.8,5.1
+261,21,Female,477.0,1133.0,Suburban,Hauts-de-France,2008,11.42,Success,11.8,8.9,8.6,9.8,18.0
+262,20,Female,353.0,1705.0,Urban,Nouvelle-Aquitaine,2005,10.7,Success,14.4,12.1,5.9,11.9,9.2
+263,27,Male,932.0,1931.0,Urban,Île-de-France,2006,11.72,Success,9.1,14.2,16.8,12.5,6.0
+264,20,Male,1072.0,2396.0,Urban,Nouvelle-Aquitaine,2007,12.74,Success,9.1,15.3,17.0,12.1,10.2
+265,20,Female,755.0,500.0,Urban,Auvergne-Rhône-Alpes,2007,11.96,Success,8.8,13.6,13.7,15.9,7.8
+266,21,Male,696.0,3073.0,Urban,Île-de-France,2005,10.38,Success,6.2,16.0,9.6,9.9,10.2
+267,24,Male,564.0,3065.0,Rural,Grand Est,2005,11.78,Success,10.6,13.3,14.2,8.7,12.1
+268,21,Female,376.0,3445.0,Rural,Auvergne-Rhône-Alpes,2006,13.98,Success,14.1,14.6,14.8,12.0,14.4
+269,26,Female,1001.0,1307.0,Suburban,Auvergne-Rhône-Alpes,2008,11.38,Success,12.5,14.8,11.2,6.9,11.5
+270,18,Female,584.0,2266.0,Urban,Auvergne-Rhône-Alpes,2005,12.22,Success,11.5,11.3,12.1,14.1,12.1
+271,25,Female,484.0,3253.0,Urban,Île-de-France,2009,12.98,Success,12.4,14.2,15.7,12.3,10.3
+272,24,Female,854.0,3322.0,Suburban,Hauts-de-France,2008,9.06,Failure,10.5,9.2,7.1,11.0,7.5
+273,19,Female,582.0,3683.0,Urban,Occitanie,2005,10.3,Success,6.2,13.0,15.0,10.8,6.5
+274,25,Female,844.0,2582.0,Rural,Grand Est,2009,12.96,Success,14.4,13.7,11.1,14.7,10.9
+275,18,Male,498.0,2455.0,Urban,Grand Est,2006,13.2,Success,15.2,15.2,8.7,14.6,12.3
+276,28,Male,854.0,1254.0,Rural,Nouvelle-Aquitaine,2009,11.04,Success,9.8,14.5,8.9,11.3,10.7
+277,29,Female,845.0,3352.0,Urban,Île-de-France,2005,11.3,Success,11.5,15.2,9.4,13.8,6.6
+278,26,Female,931.0,2132.0,Suburban,Hauts-de-France,2007,11.72,Success,11.3,11.7,8.4,14.6,12.6
+279,26,Male,423.0,2527.0,Urban,Auvergne-Rhône-Alpes,2005,14.26,Success,13.1,11.0,17.3,13.0,16.9
+280,19,Male,579.0,2474.0,Rural,Occitanie,2007,12.98,Success,17.1,11.2,13.5,11.4,11.7
+281,24,Male,1087.0,584.0,Urban,Île-de-France,2006,13.38,Success,15.5,12.8,15.2,13.1,10.3
+282,27,Male,538.0,1851.0,Suburban,Île-de-France,2006,10.38,Success,10.9,6.6,13.7,8.9,11.8
+283,20,Female,803.0,2863.0,Rural,Hauts-de-France,2008,12.54,Success,13.6,16.0,12.2,12.2,8.7
+284,24,Male,1173.0,2461.0,Urban,Occitanie,2008,11.98,Success,15.8,12.1,12.2,11.3,8.5
+285,29,Female,138.0,2869.0,Urban,Auvergne-Rhône-Alpes,2007,11.8,Success,13.2,10.8,10.8,10.8,13.4
+286,27,Female,530.0,3127.0,Urban,Île-de-France,2007,9.86,Failure,12.0,4.4,11.1,6.8,15.0
+287,26,Female,600.0,1841.0,Urban,Grand Est,2006,10.7,Success,13.3,11.9,7.8,8.9,11.6
+288,21,Female,150.0,2088.0,Urban,Grand Est,2009,10.62,Success,9.9,11.4,15.2,10.5,6.1
+289,29,Male,486.0,2387.0,Urban,Occitanie,2007,10.8,Success,10.3,9.3,6.6,14.7,13.1
+290,18,Female,357.0,3119.0,Urban,Auvergne-Rhône-Alpes,2007,11.74,Success,8.8,10.0,8.8,12.9,18.2
+291,19,Male,814.0,2313.0,Suburban,Occitanie,2009,13.78,Success,12.9,11.9,18.0,14.8,11.3
+292,18,Male,167.0,1075.0,Suburban,Île-de-France,2008,12.28,Success,11.6,10.2,12.4,15.7,11.5
+293,29,Female,1072.0,2341.0,Urban,Grand Est,2008,11.62,Success,9.5,13.7,12.5,13.0,9.4
+294,22,Male,772.0,3087.0,Rural,Nouvelle-Aquitaine,2007,12.2,Success,11.5,9.8,13.9,12.4,13.4
+295,22,Male,337.0,3586.0,Rural,Occitanie,2008,10.48,Success,13.4,12.5,7.4,9.1,10.0
+296,28,Female,857.0,2724.0,Suburban,Nouvelle-Aquitaine,2008,14.82,Success,17.7,15.5,7.8,18.0,15.1
+297,24,Male,749.0,1311.0,Urban,Nouvelle-Aquitaine,2008,11.06,Success,15.0,11.9,10.7,7.7,10.0
+298,26,Female,590.0,2175.0,Urban,Hauts-de-France,2006,10.58,Success,5.1,13.1,9.3,12.4,13.0
+299,26,Male,420.0,2880.0,Suburban,Grand Est,2005,12.76,Success,12.7,12.9,11.8,14.5,11.9
+300,20,Female,737.0,3193.0,Suburban,Occitanie,2007,14.6,Success,16.3,12.0,13.5,14.5,16.7
+301,20,Female,631.0,2906.0,Urban,Nouvelle-Aquitaine,2007,11.54,Success,8.0,11.8,16.2,8.5,13.2
+302,20,Female,428.0,2299.0,Suburban,Île-de-France,2006,13.06,Success,13.7,10.3,14.4,10.7,16.2
+303,21,Female,264.0,3187.0,Urban,Hauts-de-France,2005,10.94,Success,11.3,12.5,9.0,9.6,12.3
+304,25,Male,387.0,1988.0,Urban,Auvergne-Rhône-Alpes,2005,11.04,Success,15.5,11.2,10.9,6.1,11.5
+305,23,Female,474.0,2648.0,Suburban,Hauts-de-France,2006,12.84,Success,13.2,16.6,10.1,12.4,11.9
+306,25,Male,891.0,3100.0,Suburban,Auvergne-Rhône-Alpes,2009,10.44,Success,9.3,14.4,9.0,9.8,9.7
+307,18,Female,815.0,2961.0,Urban,Grand Est,2009,11.48,Success,11.4,7.6,8.3,16.5,13.6
+308,25,Male,487.0,2979.0,Suburban,Occitanie,2005,12.02,Success,11.6,7.8,17.0,13.8,9.9
+309,21,Female,497.0,2959.0,Rural,Occitanie,2009,11.92,Success,11.6,11.6,12.0,12.1,12.3
+310,28,Male,848.0,1661.0,Suburban,Auvergne-Rhône-Alpes,2009,12.54,Success,15.4,10.8,11.3,10.6,14.6
+311,18,Female,667.0,2514.0,Suburban,Île-de-France,2009,12.72,Success,9.5,11.5,13.5,12.3,16.8
+312,25,Female,663.0,1773.0,Urban,Auvergne-Rhône-Alpes,2005,13.26,Success,15.0,14.0,13.6,11.2,12.5
+313,21,Female,424.0,2268.0,Urban,Auvergne-Rhône-Alpes,2009,13.24,Success,11.1,12.9,15.4,12.2,14.6
+314,23,Male,569.0,1565.0,Urban,Occitanie,2007,13.46,Success,12.7,12.9,9.8,17.7,14.2
+315,25,Female,601.0,2776.0,Suburban,Nouvelle-Aquitaine,2005,12.28,Success,12.2,16.3,13.2,8.8,10.9
+316,21,Male,577.0,928.0,Suburban,Île-de-France,2006,11.76,Success,11.9,7.8,9.3,11.5,18.3
+317,20,Male,784.0,2994.0,Urban,Occitanie,2009,12.02,Success,12.0,12.3,11.4,14.1,10.3
+318,26,Male,791.0,2512.0,Urban,Hauts-de-France,2008,12.4,Success,16.4,10.3,12.2,10.8,12.3
+319,20,Male,370.0,4022.0,Urban,Auvergne-Rhône-Alpes,2005,15.28,Success,14.5,16.3,12.5,16.7,16.4
+320,26,Female,475.0,2336.0,Urban,Nouvelle-Aquitaine,2006,11.78,Success,10.9,5.4,12.3,14.0,16.3
+321,19,Female,428.0,2336.0,Rural,Île-de-France,2007,11.68,Success,16.7,5.5,14.4,9.8,12.0
+322,19,Male,947.0,3046.0,Suburban,Grand Est,2006,12.7,Success,12.8,12.9,10.2,12.6,15.0
+323,19,Male,1163.0,2383.0,Urban,Île-de-France,2009,12.44,Success,13.1,15.4,12.5,9.9,11.3
+324,23,Male,484.0,2720.0,Suburban,Île-de-France,2008,10.72,Success,9.5,14.3,9.7,9.6,10.5
+325,20,Male,558.0,3296.0,Suburban,Auvergne-Rhône-Alpes,2009,12.18,Success,10.5,9.6,20.8,11.6,8.4
+326,26,Other,811.0,2286.0,Suburban,Auvergne-Rhône-Alpes,2006,13.14,Success,9.9,16.5,9.3,15.8,14.2
+327,21,Male,423.0,3456.0,Urban,Grand Est,2005,11.84,Success,12.3,8.3,9.9,14.2,14.5
+328,18,Male,816.0,1157.0,Urban,Grand Est,2008,13.32,Success,13.9,15.9,14.6,11.9,10.3
+329,21,Male,595.0,3783.0,Urban,Grand Est,2008,11.92,Success,13.1,8.7,10.7,14.3,12.8
+330,18,Female,164.0,1069.0,Rural,Occitanie,2006,15.02,Success,16.8,10.9,14.6,12.8,20.0
+331,22,Other,275.0,3582.0,Suburban,Occitanie,2009,11.92,Success,9.3,13.9,12.5,8.5,15.4
+332,21,Female,516.0,1007.0,Suburban,Auvergne-Rhône-Alpes,2006,10.32,Success,12.3,7.6,10.8,11.6,9.3
+333,25,Female,906.0,4084.0,Urban,Auvergne-Rhône-Alpes,2008,12.22,Success,8.2,16.4,9.7,11.8,15.0
+334,25,Female,377.0,2629.0,Urban,Grand Est,2006,10.66,Success,9.2,10.9,9.6,14.3,9.3
+335,24,Male,466.0,1744.0,Urban,Occitanie,2008,10.52,Success,15.8,12.4,10.8,10.3,3.3
+336,20,Female,653.0,3992.0,Rural,Nouvelle-Aquitaine,2009,11.76,Success,10.6,15.5,11.5,9.3,11.9
+337,18,Female,183.0,1629.0,Urban,Occitanie,2005,11.46,Success,9.6,9.6,9.5,11.9,16.7
+338,18,Female,675.0,2318.0,Urban,Auvergne-Rhône-Alpes,2005,11.76,Success,5.6,15.2,11.7,10.1,16.2
+339,29,Female,214.0,4584.0,Rural,Occitanie,2006,11.86,Success,9.6,16.9,8.7,11.0,13.1
+340,28,Female,742.0,2816.0,Suburban,Auvergne-Rhône-Alpes,2008,11.58,Success,11.4,10.0,14.3,11.8,10.4
+341,20,Female,398.0,879.0,Suburban,Grand Est,2005,12.64,Success,7.9,16.1,14.8,10.9,13.5
+342,23,Other,364.0,2281.0,Urban,Grand Est,2008,10.78,Success,11.2,6.7,9.9,14.9,11.2
+343,24,Female,668.0,2211.0,Suburban,Grand Est,2009,13.08,Success,15.8,13.2,9.7,16.2,10.5
+344,23,Female,798.0,2651.0,Urban,Nouvelle-Aquitaine,2006,12.1,Success,9.9,8.3,12.5,14.6,15.2
+345,23,Female,694.0,2464.0,Suburban,Nouvelle-Aquitaine,2008,11.38,Success,9.2,14.8,15.8,6.7,10.4
+346,23,Male,652.0,2937.0,Urban,Auvergne-Rhône-Alpes,2006,13.04,Success,8.6,14.6,16.5,10.1,15.4
+347,20,Female,655.0,1278.0,Urban,Île-de-France,2008,11.26,Success,8.6,18.2,7.8,11.5,10.2
+348,23,Male,696.0,2062.0,Suburban,Hauts-de-France,2008,13.92,Success,13.6,16.3,15.0,6.5,18.2
+349,25,Female,712.0,2749.0,Suburban,Nouvelle-Aquitaine,2009,10.38,Success,12.1,11.5,11.8,9.4,7.1
+350,28,Other,501.0,1890.0,Suburban,Auvergne-Rhône-Alpes,2006,11.22,Success,14.9,8.8,11.9,11.4,9.1
+351,28,Female,764.0,3377.0,Urban,Occitanie,2007,13.5,Success,18.1,13.7,13.5,10.7,11.5
+352,19,Male,400.0,1906.0,Urban,Grand Est,2008,9.38,Failure,6.5,11.8,10.6,12.0,6.0
+353,22,Male,873.0,2615.0,Suburban,Grand Est,2008,11.46,Success,13.1,16.7,15.3,7.9,4.3
+354,18,Male,796.0,2416.0,Suburban,Grand Est,2005,9.42,Failure,8.6,5.5,16.3,10.6,6.1
+355,29,Female,1145.0,1688.0,Rural,Auvergne-Rhône-Alpes,2006,14.6,Success,14.4,18.6,16.4,12.5,11.1
+356,18,Male,728.0,2548.0,Suburban,Grand Est,2007,10.9,Success,11.2,13.6,6.5,12.0,11.2
+357,22,Male,827.0,1450.0,Urban,Nouvelle-Aquitaine,2009,11.86,Success,12.1,9.6,11.3,13.3,13.0
+358,29,Male,210.0,2145.0,Rural,Occitanie,2007,10.64,Success,8.2,14.2,6.2,13.2,11.4
+359,20,Female,835.0,2524.0,Urban,Grand Est,2009,12.0,Success,10.7,15.9,9.7,10.8,12.9
+360,21,Female,894.0,1358.0,Urban,Auvergne-Rhône-Alpes,2007,10.48,Success,12.3,12.3,4.8,12.4,10.6
+361,20,Male,976.0,2999.0,Urban,Occitanie,2007,11.98,Success,16.1,6.7,13.4,9.6,14.1
+362,18,Male,630.0,2708.0,Urban,Grand Est,2006,11.68,Success,9.6,11.1,12.7,11.2,13.8
+363,18,Female,515.0,2926.0,Suburban,Île-de-France,2005,11.18,Success,10.3,15.1,10.7,8.8,11.0
+364,29,Female,328.0,2502.0,Suburban,Grand Est,2007,13.34,Success,14.8,13.5,9.6,15.2,13.6
+365,29,Female,350.0,1579.0,Suburban,Hauts-de-France,2008,11.28,Success,9.4,11.5,12.9,11.2,11.4
+366,22,Male,594.0,2500.0,Urban,Nouvelle-Aquitaine,2008,12.58,Success,15.4,15.9,9.0,15.2,7.4
+367,23,Female,162.0,2998.0,Urban,Occitanie,2008,12.52,Success,12.0,14.2,8.8,12.9,14.7
+368,20,Female,408.0,1548.0,Urban,Nouvelle-Aquitaine,2005,10.86,Success,12.9,14.4,8.4,9.3,9.3
+369,29,Female,622.0,1611.0,Suburban,Île-de-France,2007,12.56,Success,13.1,10.8,11.4,12.8,14.7
+370,26,Female,617.0,2303.0,Urban,Île-de-France,2009,11.68,Success,10.2,10.5,10.3,14.4,13.0
+371,22,Male,358.0,2203.0,Rural,Hauts-de-France,2009,10.88,Success,13.2,6.9,10.8,11.8,11.7
+372,25,Male,292.0,2487.0,Urban,Nouvelle-Aquitaine,2006,10.62,Success,9.7,11.2,13.6,12.2,6.4
+373,18,Female,329.0,2267.0,Urban,Occitanie,2005,13.42,Success,10.5,14.8,14.9,10.3,16.6
+374,22,Female,545.0,2628.0,Suburban,Île-de-France,2007,12.9,Success,13.7,11.4,16.4,12.1,10.9
+375,20,Female,1132.0,3477.0,Rural,Île-de-France,2008,13.0,Success,12.9,13.3,12.2,12.7,13.9
+376,29,Female,865.0,2931.0,Urban,Grand Est,2005,12.42,Success,11.8,15.3,13.0,10.3,11.7
+377,18,Female,654.0,2545.0,Suburban,Hauts-de-France,2005,10.78,Success,8.2,13.1,12.6,8.8,11.2
+378,21,Female,738.0,1615.0,Rural,Auvergne-Rhône-Alpes,2007,11.58,Success,9.0,13.4,7.0,15.9,12.6
+379,22,Male,854.0,1922.0,Rural,Île-de-France,2006,11.5,Success,12.8,7.9,10.9,13.8,12.1
+380,24,Female,769.0,3173.0,Suburban,Occitanie,2006,11.54,Success,14.2,11.0,10.9,10.4,11.2
+381,18,Male,523.0,2125.0,Suburban,Occitanie,2006,12.18,Success,8.7,17.2,10.5,12.7,11.8
+382,20,Male,389.0,1726.0,Urban,Grand Est,2008,10.92,Success,9.5,12.3,11.9,7.6,13.3
+383,19,Other,569.0,4178.0,Rural,Occitanie,2008,12.2,Success,12.4,17.7,11.3,6.1,13.5
+384,26,Male,851.0,3720.0,Urban,Grand Est,2007,11.7,Success,12.3,9.8,9.0,15.3,12.1
+385,27,Male,532.0,2400.0,Rural,Île-de-France,2006,11.58,Success,7.1,12.7,11.5,12.7,13.9
+386,23,Male,324.0,1634.0,Urban,Île-de-France,2007,11.22,Success,12.5,10.9,10.1,11.9,10.7
+387,27,Female,169.0,3079.0,Urban,Île-de-France,2006,11.9,Success,10.2,13.8,4.1,12.7,18.7
+388,20,Male,570.0,2108.0,Suburban,Île-de-France,2005,15.52,Success,16.9,14.7,7.8,21.7,16.5
+389,25,Male,344.0,3211.0,Urban,Auvergne-Rhône-Alpes,2009,13.54,Success,12.7,13.8,12.3,14.6,14.3
+390,25,Male,491.0,2109.0,Urban,Hauts-de-France,2009,11.76,Success,13.3,15.1,15.3,8.9,6.2
+391,19,Male,964.0,3816.0,Suburban,Hauts-de-France,2006,10.16,Success,13.3,12.0,4.7,7.0,13.8
+392,23,Male,587.0,2085.0,Suburban,Auvergne-Rhône-Alpes,2007,11.08,Success,8.4,11.4,9.4,15.2,11.0
+393,24,Male,412.0,4392.0,Suburban,Île-de-France,2008,12.3,Success,17.8,6.7,13.3,14.6,9.1
+394,19,Female,677.0,2656.0,Urban,Occitanie,2006,12.04,Success,7.1,13.9,14.6,13.7,10.9
+395,28,Male,1080.0,3607.0,Suburban,Grand Est,2006,11.32,Success,14.4,12.5,10.7,9.6,9.4
+396,27,Male,570.0,2068.0,Urban,Hauts-de-France,2008,12.46,Success,13.9,11.8,10.0,13.1,13.5
+397,19,Male,11.0,1451.0,Urban,Nouvelle-Aquitaine,2006,12.86,Success,10.6,11.4,15.7,9.8,16.8
+398,27,Male,763.0,655.0,Suburban,Grand Est,2005,13.76,Success,14.0,11.9,14.4,14.0,14.5
+399,18,Female,687.0,3521.0,Rural,Nouvelle-Aquitaine,2008,14.42,Success,11.0,11.3,14.6,14.9,20.3
+400,25,Female,623.0,2554.0,Urban,Nouvelle-Aquitaine,2005,9.74,Failure,10.0,10.4,10.6,10.4,7.3
+401,18,Male,545.0,1502.0,Suburban,Île-de-France,2009,13.46,Success,13.4,12.7,15.3,15.4,10.5
+402,26,Male,398.0,3555.0,Urban,Nouvelle-Aquitaine,2008,10.04,Success,9.0,13.5,6.2,12.3,9.2
+403,28,Male,979.0,3425.0,Urban,Île-de-France,2008,13.12,Success,11.3,9.7,15.4,13.5,15.7
+404,23,Female,140.0,3606.0,Urban,Auvergne-Rhône-Alpes,2007,10.44,Success,10.2,10.8,11.8,8.1,11.3
+405,24,Female,523.0,1428.0,Rural,Occitanie,2007,12.02,Success,11.0,11.4,12.4,12.7,12.6
+406,27,Female,517.0,3497.0,Rural,Nouvelle-Aquitaine,2008,11.68,Success,13.3,12.0,9.2,10.0,13.9
+407,24,Male,813.0,2807.0,Suburban,Occitanie,2009,9.88,Failure,10.2,11.6,6.6,13.4,7.6
+408,27,Female,909.0,3642.0,Suburban,Île-de-France,2006,12.84,Success,11.4,14.0,12.3,16.4,10.1
+409,20,Male,543.0,2934.0,Suburban,Nouvelle-Aquitaine,2007,11.82,Success,10.5,7.0,13.7,12.9,15.0
+410,19,Male,648.0,2638.0,Urban,Grand Est,2009,11.54,Success,16.3,7.6,14.1,9.3,10.4
+411,26,Male,669.0,3508.0,Urban,Auvergne-Rhône-Alpes,2009,12.04,Success,13.0,12.6,13.8,13.9,6.9
+412,25,Male,863.0,3182.0,Urban,Hauts-de-France,2007,11.7,Success,12.7,10.2,13.1,13.2,9.3
+413,29,Female,858.0,3365.0,Suburban,Auvergne-Rhône-Alpes,2006,13.46,Success,14.1,14.7,9.2,18.2,11.1
+414,27,Female,465.0,2110.0,Rural,Nouvelle-Aquitaine,2007,13.06,Success,10.2,15.5,14.3,12.8,12.5
+415,24,Male,709.0,2362.0,Urban,Auvergne-Rhône-Alpes,2009,11.64,Success,14.6,12.7,8.9,10.2,11.8
+416,26,Female,696.0,1113.0,Urban,Hauts-de-France,2005,12.32,Success,13.0,8.8,15.3,14.3,10.2
+417,21,Other,571.0,2052.0,Urban,Grand Est,2007,12.12,Success,7.3,15.2,11.7,11.6,14.8
+418,21,Female,693.0,3132.0,Rural,Occitanie,2009,11.18,Success,7.7,12.6,11.8,12.2,11.6
+419,18,Female,605.0,2951.0,Urban,Grand Est,2007,10.84,Success,10.3,7.5,14.6,9.2,12.6
+420,25,Female,639.0,1716.0,Urban,Auvergne-Rhône-Alpes,2009,10.54,Success,8.0,7.8,15.0,11.6,10.3
+421,29,Other,261.0,3526.0,Suburban,Hauts-de-France,2006,14.16,Success,11.3,16.6,14.3,12.1,16.5
+422,20,Female,371.0,4878.0,Suburban,Occitanie,2009,11.4,Success,9.0,16.1,9.5,11.6,10.8
+423,24,Male,804.0,1778.0,Urban,Hauts-de-France,2008,10.56,Success,11.7,4.4,14.3,10.2,12.2
+424,29,Male,297.0,2335.0,Urban,Grand Est,2005,12.34,Success,16.2,7.9,9.6,12.9,15.1
+425,19,Female,718.0,2003.0,Suburban,Île-de-France,2009,12.74,Success,11.9,15.4,14.4,9.2,12.8
+426,19,Male,580.0,2424.0,Urban,Île-de-France,2007,10.4,Success,11.1,11.9,7.7,8.5,12.8
+427,24,Female,858.0,2719.0,Rural,Occitanie,2007,11.84,Success,13.2,14.1,11.7,14.1,6.1
+428,23,Male,762.0,1942.0,Suburban,Occitanie,2009,11.82,Success,9.9,11.8,9.5,13.9,14.0
+429,20,Male,487.0,2278.0,Urban,Occitanie,2008,12.68,Success,14.5,14.0,14.6,8.1,12.2
+430,26,Male,544.0,2570.0,Urban,Île-de-France,2009,12.18,Success,13.5,12.0,15.3,6.5,13.6
+431,27,Male,104.0,2877.0,Urban,Grand Est,2006,11.38,Success,12.1,10.7,12.6,9.0,12.5
+432,23,Female,567.0,3673.0,Urban,Occitanie,2008,12.42,Success,12.5,15.2,12.5,11.6,10.3
+433,27,Female,282.0,2488.0,Rural,Île-de-France,2009,15.0,Success,18.1,12.6,14.1,15.5,14.7
+434,27,Female,545.0,2051.0,Rural,Occitanie,2005,13.66,Success,14.8,14.0,15.4,11.5,12.6
+435,23,Female,441.0,3057.0,Urban,Occitanie,2008,12.2,Success,18.6,12.5,12.1,9.7,8.1
+436,18,Male,381.0,2820.0,Urban,Hauts-de-France,2009,12.58,Success,13.6,10.5,10.5,12.4,15.9
+437,21,Female,897.0,2346.0,Urban,Occitanie,2005,11.54,Success,7.6,16.8,13.9,11.7,7.7
+438,27,Female,281.0,2888.0,Urban,Île-de-France,2009,10.66,Success,11.2,13.1,6.4,7.9,14.7
+439,23,Female,359.0,2193.0,Suburban,Grand Est,2006,11.38,Success,6.9,10.9,14.7,7.9,16.5
+440,23,Male,425.0,2076.0,Urban,Île-de-France,2007,11.2,Success,13.6,15.8,9.9,8.0,8.7
+441,28,Female,480.0,981.0,Rural,Île-de-France,2009,12.9,Success,14.2,8.0,11.3,19.4,11.6
+442,29,Female,381.0,2238.0,Urban,Occitanie,2008,13.74,Success,9.3,18.7,14.7,14.6,11.4
+443,22,Other,510.0,1090.0,Suburban,Hauts-de-France,2009,10.8,Success,10.0,11.5,10.8,10.2,11.5
+444,18,Female,676.0,1988.0,Rural,Nouvelle-Aquitaine,2009,13.46,Success,12.4,8.2,13.9,15.3,17.5
+445,25,Male,767.0,2964.0,Urban,Nouvelle-Aquitaine,2009,12.1,Success,8.4,17.7,15.4,10.3,8.7
+446,22,Female,755.0,1296.0,Urban,Nouvelle-Aquitaine,2009,11.48,Success,8.2,10.6,12.3,15.2,11.1
+447,29,Female,123.0,2348.0,Urban,Île-de-France,2008,14.0,Success,15.7,12.7,12.9,12.2,16.5
+448,29,Male,695.0,2552.0,Urban,Occitanie,2008,11.82,Success,12.3,14.2,11.6,10.0,11.0
+449,29,Female,710.0,2309.0,Rural,Nouvelle-Aquitaine,2009,12.28,Success,10.3,15.6,12.3,14.0,9.2
+450,22,Female,434.0,2115.0,Rural,Auvergne-Rhône-Alpes,2007,10.74,Success,6.9,12.9,8.7,12.4,12.8
+451,24,Male,1017.0,2760.0,Rural,Auvergne-Rhône-Alpes,2009,12.68,Success,14.6,10.1,11.1,13.2,14.4
+452,21,Male,872.0,2871.0,Rural,Auvergne-Rhône-Alpes,2008,10.82,Success,9.9,12.7,8.1,12.6,10.8
+453,23,Male,554.0,2501.0,Urban,Grand Est,2006,12.78,Success,17.6,10.7,9.3,12.6,13.7
+454,21,Male,451.0,2159.0,Rural,Occitanie,2009,11.12,Success,14.6,12.7,6.0,14.4,7.9
+455,20,Male,1013.0,3192.0,Rural,Île-de-France,2009,13.42,Success,9.6,16.9,12.8,19.8,8.0
+456,24,Female,595.0,1451.0,Urban,Île-de-France,2009,13.54,Success,9.9,14.3,17.1,15.7,10.7
+457,25,Male,621.0,3050.0,Urban,Occitanie,2009,13.38,Success,17.2,12.6,10.6,12.7,13.8
+458,21,Male,618.0,2836.0,Suburban,Hauts-de-France,2005,13.24,Success,11.7,14.2,14.9,11.1,14.3
+459,19,Female,1176.0,2659.0,Urban,Hauts-de-France,2009,12.04,Success,10.5,14.4,15.4,11.4,8.5
+460,29,Female,546.0,2492.0,Urban,Grand Est,2008,10.34,Success,12.1,8.8,8.4,8.2,14.2
+461,27,Male,594.0,988.0,Rural,Occitanie,2008,11.6,Success,10.4,12.1,9.0,14.0,12.5
+462,20,Male,392.0,3610.0,Rural,Hauts-de-France,2005,13.16,Success,12.7,19.7,15.0,9.0,9.4
+463,18,Male,503.0,3171.0,Urban,Grand Est,2009,11.6,Success,11.8,15.6,11.7,10.9,8.0
+464,25,Female,342.0,1731.0,Urban,Nouvelle-Aquitaine,2007,11.98,Success,14.6,10.5,8.1,14.0,12.7
+465,20,Male,397.0,3107.0,Rural,Nouvelle-Aquitaine,2009,11.66,Success,10.8,10.2,10.1,11.3,15.9
+466,29,Female,148.0,2651.0,Suburban,Grand Est,2008,11.06,Success,9.3,10.1,13.3,10.5,12.1
+467,27,Other,820.0,2034.0,Urban,Occitanie,2006,10.56,Success,11.0,14.6,9.6,8.4,9.2
+468,24,Male,639.0,3453.0,Suburban,Nouvelle-Aquitaine,2006,10.68,Success,10.9,16.8,3.7,15.6,6.4
+469,27,Female,660.0,2155.0,Rural,Occitanie,2007,12.52,Success,11.8,13.7,11.0,9.5,16.6
+470,22,Other,587.0,3585.0,Rural,Hauts-de-France,2009,12.6,Success,13.9,12.5,11.3,10.2,15.1
+471,27,Male,618.0,2927.0,Urban,Nouvelle-Aquitaine,2005,11.18,Success,13.7,10.7,12.0,6.6,12.9
+472,22,Female,1005.0,3265.0,Urban,Hauts-de-France,2009,14.54,Success,15.6,13.0,15.8,11.9,16.4
+473,24,Female,408.0,2963.0,Rural,Occitanie,2007,11.0,Success,9.6,9.5,12.2,11.0,12.7
+474,26,Female,670.0,2926.0,Urban,Occitanie,2007,11.0,Success,13.2,6.2,12.7,12.5,10.4
+475,29,Female,668.0,2672.0,Suburban,Auvergne-Rhône-Alpes,2007,13.7,Success,14.2,16.9,15.2,8.5,13.7
+476,22,Female,885.0,1919.0,Urban,Grand Est,2006,10.94,Success,10.0,9.0,12.0,14.2,9.5
+477,18,Female,710.0,2550.0,Urban,Île-de-France,2009,11.26,Success,11.4,11.0,18.4,6.5,9.0
+478,27,Female,722.0,3233.0,Urban,Grand Est,2009,11.0,Success,6.8,14.0,8.2,11.7,14.3
+479,27,Female,285.0,3075.0,Urban,Occitanie,2005,13.42,Success,14.7,16.3,9.2,12.3,14.6
+480,18,Female,398.0,2901.0,Rural,Occitanie,2007,11.68,Success,11.4,12.8,13.8,12.2,8.2
+481,19,Female,308.0,823.0,Urban,Grand Est,2007,11.88,Success,14.4,8.4,15.8,12.5,8.3
+482,23,Male,0.0,2329.0,Rural,Occitanie,2008,12.04,Success,12.6,11.1,11.4,14.4,10.7
+483,26,Male,699.0,2245.0,Rural,Hauts-de-France,2008,11.26,Success,11.4,10.0,9.0,16.0,9.9
+484,25,Male,535.0,1617.0,Urban,Nouvelle-Aquitaine,2006,12.26,Success,7.2,11.9,17.3,11.5,13.4
+485,22,Male,700.0,3223.0,Suburban,Occitanie,2009,10.86,Success,7.8,15.7,9.6,9.1,12.1
+486,18,Male,609.0,880.0,Urban,Grand Est,2005,10.16,Success,4.2,4.4,13.0,13.7,15.5
+487,24,Female,660.0,3169.0,Suburban,Grand Est,2005,12.24,Success,10.3,10.8,15.9,11.2,13.0
+488,22,Male,935.0,3563.0,Suburban,Grand Est,2007,13.18,Success,18.8,10.5,10.7,15.8,10.1
+489,23,Female,602.0,2332.0,Urban,Auvergne-Rhône-Alpes,2005,8.58,Failure,8.1,8.2,10.1,10.2,6.3
+490,24,Male,767.0,2441.0,Urban,Hauts-de-France,2007,10.02,Success,4.1,13.8,10.3,9.4,12.5
+491,20,Female,524.0,3274.0,Suburban,Hauts-de-France,2009,11.34,Success,14.9,7.8,14.7,12.4,6.9
+492,29,Other,806.0,1889.0,Rural,Auvergne-Rhône-Alpes,2005,11.84,Success,19.1,8.1,15.2,6.8,10.0
+493,27,Male,290.0,3029.0,Urban,Hauts-de-France,2007,12.0,Success,12.9,14.6,12.1,10.6,9.8
+494,20,Female,141.0,1766.0,Suburban,Auvergne-Rhône-Alpes,2009,13.7,Success,12.9,16.5,17.6,11.0,10.5
+495,22,Male,1127.0,1526.0,Urban,Hauts-de-France,2009,11.16,Success,11.1,11.8,12.1,12.7,8.1
+496,23,Female,1059.0,2737.0,Rural,Auvergne-Rhône-Alpes,2007,9.92,Failure,6.6,8.3,15.9,9.0,9.8
+497,26,Male,114.0,2479.0,Urban,Auvergne-Rhône-Alpes,2007,10.6,Success,7.6,9.9,10.7,9.4,15.4
+498,29,Female,591.0,1123.0,Suburban,Hauts-de-France,2006,15.18,Success,11.0,15.0,19.0,15.5,15.4
+499,22,Male,637.0,3632.0,Urban,Auvergne-Rhône-Alpes,2009,13.62,Success,10.5,12.3,16.7,12.0,16.6
+500,18,Female,781.0,2168.0,Suburban,Hauts-de-France,2007,12.32,Success,11.7,11.7,11.6,14.6,12.0
+501,21,Female,1035.0,2909.0,Rural,Auvergne-Rhône-Alpes,2009,13.38,Success,14.5,12.9,16.3,10.4,12.8
+502,22,Male,335.0,3784.0,Suburban,Grand Est,2005,13.14,Success,10.3,11.9,16.2,11.8,15.5
+503,29,Male,348.0,2698.0,Suburban,Île-de-France,2008,13.6,Success,14.5,16.6,16.7,12.6,7.6
+504,27,Male,600.0,3519.0,Suburban,Hauts-de-France,2008,11.26,Success,10.3,9.8,4.6,17.2,14.4
+505,27,Male,359.0,1810.0,Rural,Auvergne-Rhône-Alpes,2007,13.18,Success,15.1,9.4,14.2,11.3,15.9
+506,22,Female,0.0,3637.0,Suburban,Grand Est,2007,10.9,Success,12.3,7.8,13.6,11.5,9.3
+507,24,Male,543.0,1839.0,Rural,Île-de-France,2009,13.18,Success,10.7,10.4,13.4,15.3,16.1
+508,21,Male,814.0,2043.0,Suburban,Auvergne-Rhône-Alpes,2007,12.54,Success,12.2,8.7,12.7,10.9,18.2
+509,18,Male,595.0,1336.0,Suburban,Île-de-France,2009,12.74,Success,11.1,12.7,12.7,12.9,14.3
+510,22,Female,756.0,2715.0,Urban,Hauts-de-France,2007,13.8,Success,12.3,12.1,15.8,15.0,13.8
+511,24,Male,720.0,3005.0,Suburban,Île-de-France,2009,11.12,Success,14.3,8.8,13.6,10.3,8.6
+512,27,Male,343.0,3113.0,Urban,Nouvelle-Aquitaine,2007,13.28,Success,11.7,13.8,12.7,13.0,15.2
+513,27,Male,617.0,1355.0,Rural,Occitanie,2006,13.8,Success,10.9,16.6,15.4,17.2,8.9
+514,23,Male,219.0,2800.0,Suburban,Nouvelle-Aquitaine,2009,12.58,Success,8.6,13.1,13.3,14.8,13.1
+515,22,Female,472.0,2830.0,Rural,Hauts-de-France,2006,11.58,Success,13.7,4.4,13.5,12.9,13.4
+516,21,Male,613.0,2992.0,Urban,Hauts-de-France,2006,12.4,Success,13.0,18.0,17.6,11.3,2.1
+517,19,Male,600.0,1882.0,Urban,Île-de-France,2006,11.36,Success,8.5,14.2,10.7,10.2,13.2
+518,21,Female,277.0,500.0,Rural,Grand Est,2006,13.76,Success,14.5,17.9,7.5,9.0,19.9
+519,27,Female,328.0,3065.0,Urban,Auvergne-Rhône-Alpes,2005,11.62,Success,8.4,15.3,12.2,16.5,5.7
+520,27,Male,673.0,2383.0,Urban,Occitanie,2008,14.26,Success,15.1,15.9,12.6,15.9,11.8
+521,20,Female,807.0,2724.0,Rural,Auvergne-Rhône-Alpes,2005,11.42,Success,14.1,12.6,14.2,10.0,6.2
+522,27,Female,548.0,2424.0,Suburban,Grand Est,2007,11.82,Success,13.3,11.2,12.3,13.0,9.3
+523,18,Male,536.0,2688.0,Urban,Hauts-de-France,2007,11.36,Success,10.9,13.1,14.3,12.3,6.2
+524,25,Female,833.0,3090.0,Rural,Occitanie,2008,14.24,Success,13.7,9.9,19.5,15.6,12.5
+525,22,Female,407.0,1014.0,Urban,Nouvelle-Aquitaine,2008,14.08,Success,15.2,13.3,14.4,13.1,14.4
+526,21,Male,1032.0,3413.0,Rural,Hauts-de-France,2008,11.58,Success,13.8,4.1,14.9,11.9,13.2
+527,25,Male,264.0,2354.0,Urban,Hauts-de-France,2006,10.66,Success,10.0,12.1,11.6,10.4,9.2
+528,24,Male,862.0,3802.0,Suburban,Île-de-France,2005,11.96,Success,12.8,16.0,7.8,13.0,10.2
+529,19,Female,735.0,2132.0,Urban,Grand Est,2007,11.32,Success,15.4,12.3,5.1,11.0,12.8
+530,18,Other,1203.0,1955.0,Suburban,Île-de-France,2005,13.64,Success,18.6,17.2,10.4,12.7,9.3
+531,29,Female,320.0,2381.0,Urban,Île-de-France,2005,9.34,Failure,11.4,11.2,4.3,11.8,8.0
+532,28,Male,16.0,2900.0,Rural,Auvergne-Rhône-Alpes,2005,13.06,Success,14.6,15.0,13.5,10.9,11.3
+533,21,Female,912.0,2281.0,Urban,Hauts-de-France,2008,10.8,Success,15.4,9.4,10.9,9.1,9.2
+534,25,Female,232.0,2958.0,Urban,Grand Est,2008,11.86,Success,9.6,14.9,8.1,13.5,13.2
+535,29,Male,754.0,2190.0,Suburban,Île-de-France,2007,14.08,Success,17.3,12.7,12.4,12.1,15.9
+536,19,Male,896.0,2528.0,Urban,Nouvelle-Aquitaine,2007,13.42,Success,8.8,11.3,9.8,17.4,19.8
+537,20,Female,695.0,4289.0,Urban,Occitanie,2007,10.8,Success,14.4,4.3,13.4,8.9,13.0
+538,29,Male,658.0,2786.0,Urban,Grand Est,2005,13.2,Success,12.9,11.2,14.1,13.9,13.9
+539,18,Female,700.0,2850.0,Urban,Auvergne-Rhône-Alpes,2008,11.34,Success,12.2,12.6,9.9,11.8,10.2
+540,18,Male,809.0,1322.0,Urban,Grand Est,2006,14.82,Success,19.6,14.5,11.3,18.3,10.4
+541,20,Male,747.0,3583.0,Urban,Hauts-de-France,2005,13.98,Success,11.1,16.7,12.6,13.6,15.9
+542,28,Male,296.0,3353.0,Urban,Auvergne-Rhône-Alpes,2009,12.22,Success,11.0,18.1,7.8,13.0,11.2
+543,22,Male,1056.0,1928.0,Suburban,Occitanie,2005,13.66,Success,16.0,15.7,12.6,11.8,12.2
+544,29,Female,613.0,3337.0,Suburban,Nouvelle-Aquitaine,2008,11.58,Success,14.3,10.3,7.7,9.9,15.7
+545,20,Male,730.0,2764.0,Urban,Île-de-France,2009,12.94,Success,15.8,11.1,13.7,12.9,11.2
+546,18,Female,778.0,2537.0,Rural,Grand Est,2005,12.34,Success,12.4,14.2,10.7,7.9,16.5
+547,18,Female,889.0,3533.0,Rural,Auvergne-Rhône-Alpes,2008,11.2,Success,13.0,13.6,7.7,8.0,13.7
+548,25,Female,863.0,2090.0,Urban,Occitanie,2008,14.66,Success,17.7,16.9,10.3,15.0,13.4
+549,27,Male,633.0,1922.0,Urban,Île-de-France,2006,11.22,Success,9.5,19.4,10.4,6.7,10.1
+550,28,Female,617.0,2666.0,Rural,Occitanie,2005,14.04,Success,11.7,18.8,15.2,11.0,13.5
+551,29,Female,702.0,2923.0,Urban,Nouvelle-Aquitaine,2008,12.6,Success,14.4,16.5,12.5,8.9,10.7
+552,29,Male,875.0,3273.0,Urban,Île-de-France,2007,11.66,Success,11.4,13.6,9.1,10.8,13.4
+553,19,Male,322.0,2379.0,Urban,Île-de-France,2008,13.5,Success,10.3,16.0,16.9,12.6,11.7
+554,20,Female,761.0,1820.0,Suburban,Île-de-France,2006,14.94,Success,13.9,17.0,13.9,15.0,14.9
+555,19,Other,378.0,4523.0,Urban,Auvergne-Rhône-Alpes,2008,13.24,Success,16.0,11.6,11.0,15.7,11.9
+556,20,Male,1063.0,1631.0,Suburban,Île-de-France,2005,11.32,Success,11.6,10.4,7.3,9.2,18.1
+557,24,Female,692.0,2544.0,Suburban,Occitanie,2005,10.74,Success,11.5,9.7,10.7,10.6,11.2
+558,18,Female,496.0,3124.0,Suburban,Auvergne-Rhône-Alpes,2009,13.08,Success,10.1,9.4,11.3,24.2,10.4
+559,27,Female,707.0,3421.0,Rural,Île-de-France,2005,11.26,Success,11.1,7.9,13.1,11.2,13.0
+560,25,Other,602.0,2046.0,Urban,Occitanie,2009,13.28,Success,15.3,12.7,13.8,9.4,15.2
+561,27,Female,560.0,1000.0,Suburban,Occitanie,2007,12.14,Success,12.2,9.0,14.4,9.9,15.2
+562,27,Male,148.0,2028.0,Urban,Grand Est,2006,10.04,Success,9.6,9.6,7.2,11.3,12.5
+563,27,Male,344.0,3189.0,Urban,Occitanie,2007,12.66,Success,12.8,14.1,12.6,10.8,13.0
+564,19,Male,565.0,3010.0,Urban,Hauts-de-France,2009,12.7,Success,15.2,12.5,11.5,11.3,13.0
+565,20,Female,178.0,3036.0,Urban,Nouvelle-Aquitaine,2008,12.86,Success,10.3,13.3,20.0,11.9,8.8
+566,26,Female,453.0,3069.0,Urban,Île-de-France,2008,12.66,Success,8.0,16.1,12.2,11.9,15.1
+567,24,Male,475.0,3572.0,Urban,Île-de-France,2007,12.12,Success,18.6,14.6,10.1,9.1,8.2
+568,21,Female,405.0,1879.0,Urban,Île-de-France,2008,11.74,Success,7.9,16.6,12.3,13.1,8.8
+569,27,Female,793.0,1542.0,Suburban,Occitanie,2009,11.94,Success,10.9,12.2,12.0,12.4,12.2
+570,22,Female,380.0,2796.0,Urban,Occitanie,2006,12.0,Success,12.7,16.8,6.0,13.5,11.0
+571,19,Male,622.0,1661.0,Suburban,Île-de-France,2005,11.76,Success,11.2,13.1,13.2,6.9,14.4
+572,28,Female,512.0,1491.0,Urban,Hauts-de-France,2009,12.24,Success,11.8,12.5,11.1,12.5,13.3
+573,25,Male,570.0,3479.0,Urban,Auvergne-Rhône-Alpes,2009,12.08,Success,13.7,16.4,11.9,6.0,12.4
+574,21,Male,1002.0,2700.0,Urban,Auvergne-Rhône-Alpes,2005,8.74,Failure,4.8,9.4,9.4,11.5,8.6
+575,26,Male,645.0,2523.0,Urban,Nouvelle-Aquitaine,2005,12.22,Success,8.2,18.1,8.7,14.0,12.1
+576,22,Male,693.0,2539.0,Suburban,Grand Est,2006,12.96,Success,12.1,11.2,14.6,15.1,11.8
+577,26,Male,409.0,2415.0,Urban,Nouvelle-Aquitaine,2006,12.02,Success,10.8,8.3,15.3,13.0,12.7
+578,21,Female,757.0,3474.0,Rural,Île-de-France,2006,12.88,Success,12.4,14.0,13.3,14.0,10.7
+579,27,Male,746.0,1288.0,Rural,Île-de-France,2008,10.98,Success,12.7,10.9,6.6,11.1,13.6
+580,22,Female,722.0,1255.0,Urban,Île-de-France,2009,11.74,Success,5.7,18.1,13.4,10.5,11.0
+581,26,Male,298.0,1751.0,Suburban,Grand Est,2005,13.3,Success,15.8,10.7,6.6,20.1,13.3
+582,25,Female,454.0,2731.0,Urban,Occitanie,2009,12.46,Success,10.5,12.9,10.0,14.5,14.4
+583,20,Other,958.0,3944.0,Suburban,Grand Est,2009,10.12,Success,9.4,7.7,14.6,8.5,10.4
+584,18,Male,428.0,3195.0,Suburban,Nouvelle-Aquitaine,2006,11.5,Success,12.6,14.4,14.0,6.8,9.7
+585,20,Male,992.0,2974.0,Urban,Occitanie,2006,11.88,Success,12.3,9.7,13.4,10.6,13.4
+586,21,Male,463.0,2436.0,Urban,Occitanie,2009,13.84,Success,15.6,14.1,15.9,15.6,8.0
+587,19,Female,637.0,1434.0,Urban,Nouvelle-Aquitaine,2006,12.92,Success,12.8,10.7,13.7,12.1,15.3
+588,18,Female,553.0,2912.0,Urban,Occitanie,2008,8.92,Failure,15.5,5.9,5.9,5.3,12.0
+589,24,Male,389.0,4121.0,Suburban,Auvergne-Rhône-Alpes,2005,11.14,Success,9.2,12.4,10.9,11.5,11.7
+590,25,Female,392.0,2308.0,Urban,Nouvelle-Aquitaine,2009,12.44,Success,12.4,12.3,11.9,12.0,13.6
+591,24,Male,424.0,2051.0,Urban,Nouvelle-Aquitaine,2005,10.62,Success,8.7,14.6,11.5,4.8,13.5
+592,22,Male,637.0,2312.0,Urban,Auvergne-Rhône-Alpes,2008,12.64,Success,12.3,16.7,10.1,12.1,12.0
+593,29,Female,823.0,2980.0,Suburban,Grand Est,2006,12.38,Success,11.7,17.7,8.9,9.0,14.6
+594,18,Male,621.0,2589.0,Urban,Grand Est,2007,12.36,Success,11.5,14.6,19.2,6.5,10.0
+595,24,Female,592.0,3228.0,Suburban,Grand Est,2008,13.22,Success,11.6,12.8,10.8,16.8,14.1
+596,24,Male,903.0,2473.0,Suburban,Occitanie,2007,11.72,Success,14.2,7.7,19.1,8.8,8.8
+597,26,Other,610.0,2307.0,Suburban,Auvergne-Rhône-Alpes,2005,10.38,Success,7.2,12.6,8.6,10.0,13.5
+598,20,Male,464.0,2683.0,Suburban,Nouvelle-Aquitaine,2009,11.38,Success,9.3,12.6,14.0,10.0,11.0
+599,26,Male,351.0,2068.0,Urban,Nouvelle-Aquitaine,2006,11.22,Success,11.9,11.4,12.7,12.0,8.1
+600,18,Female,918.0,3893.0,Urban,Nouvelle-Aquitaine,2008,12.34,Success,8.5,13.9,9.2,17.3,12.8
+601,18,Male,518.0,3158.0,Suburban,Occitanie,2006,11.68,Success,12.1,15.4,10.6,8.4,11.9
+602,21,Other,455.0,1620.0,Rural,Occitanie,2007,10.36,Success,11.8,9.5,12.0,11.1,7.4
+603,26,Female,434.0,1903.0,Suburban,Hauts-de-France,2007,8.98,Failure,7.8,9.5,9.5,12.4,5.7
+604,23,Female,904.0,2952.0,Urban,Grand Est,2009,10.26,Success,7.6,11.6,11.2,9.4,11.5
+605,28,Female,457.0,2647.0,Urban,Hauts-de-France,2007,9.42,Failure,4.1,10.2,4.9,11.0,16.9
+606,20,Female,848.0,2742.0,Rural,Hauts-de-France,2009,11.26,Success,8.3,7.1,14.1,13.8,13.0
+607,18,Female,542.0,2346.0,Urban,Occitanie,2008,11.28,Success,12.0,9.0,15.7,9.7,10.0
+608,21,Female,298.0,2864.0,Urban,Grand Est,2009,12.08,Success,12.5,8.3,13.4,11.0,15.2
+609,29,Female,517.0,2365.0,Urban,Grand Est,2007,14.48,Success,12.6,15.6,18.8,10.7,14.7
+610,26,Male,592.0,2951.0,Rural,Nouvelle-Aquitaine,2005,13.66,Success,9.7,17.1,14.0,11.7,15.8
+611,20,Male,571.0,3118.0,Urban,Occitanie,2009,12.56,Success,11.9,8.7,15.4,12.7,14.1
+612,29,Female,565.0,3785.0,Urban,Grand Est,2006,14.2,Success,13.2,13.6,15.7,13.8,14.7
+613,26,Male,520.0,2088.0,Suburban,Hauts-de-France,2005,11.7,Success,8.2,14.6,3.7,17.8,14.2
+614,24,Female,404.0,2491.0,Urban,Auvergne-Rhône-Alpes,2009,9.56,Failure,12.4,7.5,13.3,4.0,10.6
+615,29,Male,603.0,1525.0,Rural,Auvergne-Rhône-Alpes,2006,10.6,Success,14.0,12.5,7.9,11.5,7.1
+616,21,Male,735.0,3961.0,Suburban,Occitanie,2005,11.38,Success,10.5,19.6,8.5,7.9,10.4
+617,20,Female,234.0,920.0,Urban,Nouvelle-Aquitaine,2009,12.86,Success,15.2,14.0,9.0,10.8,15.3
+618,27,Female,925.0,3846.0,Rural,Nouvelle-Aquitaine,2008,11.7,Success,10.6,11.3,11.1,14.6,10.9
+619,22,Male,0.0,2575.0,Rural,Grand Est,2006,12.18,Success,9.4,10.3,14.0,15.6,11.6
+620,22,Female,619.0,2835.0,Urban,Occitanie,2008,11.42,Success,13.7,5.9,13.3,15.7,8.5
+621,20,Female,717.0,2367.0,Urban,Auvergne-Rhône-Alpes,2007,13.9,Success,18.1,13.4,12.0,15.7,10.3
+622,29,Male,449.0,2525.0,Rural,Hauts-de-France,2009,13.56,Success,12.3,17.8,14.2,11.5,12.0
+623,26,Female,69.0,2970.0,Urban,Grand Est,2009,13.52,Success,13.9,9.6,14.4,16.2,13.5
+624,21,Male,576.0,1191.0,Rural,Hauts-de-France,2006,11.48,Success,10.5,6.2,13.3,16.8,10.6
+625,28,Male,642.0,1978.0,Rural,Grand Est,2009,9.58,Failure,8.3,10.0,6.8,12.4,10.4
+626,22,Other,313.0,1824.0,Urban,Île-de-France,2007,13.38,Success,12.5,14.6,9.8,15.5,14.5
+627,21,Male,392.0,2858.0,Rural,Hauts-de-France,2009,12.18,Success,13.0,10.7,12.1,12.1,13.0
+628,22,Female,841.0,2503.0,Urban,Occitanie,2005,12.82,Success,10.9,9.5,14.2,16.2,13.3
+629,24,Female,629.0,2994.0,Suburban,Hauts-de-France,2008,12.42,Success,13.9,12.1,8.0,11.5,16.6
+630,26,Male,223.0,2632.0,Urban,Hauts-de-France,2007,11.08,Success,10.0,12.7,12.0,10.2,10.5
+631,24,Female,712.0,3347.0,Rural,Grand Est,2007,8.98,Failure,9.3,7.8,7.3,8.6,11.9
+632,22,Female,367.0,1908.0,Suburban,Auvergne-Rhône-Alpes,2008,13.36,Success,15.2,11.3,15.1,11.5,13.7
+633,27,Male,406.0,2547.0,Suburban,Île-de-France,2008,12.02,Success,15.2,10.5,12.7,12.3,9.4
+634,27,Female,649.0,3387.0,Rural,Hauts-de-France,2007,10.02,Success,10.1,10.1,8.0,9.2,12.7
+635,24,Female,626.0,3227.0,Suburban,Auvergne-Rhône-Alpes,2008,11.46,Success,17.2,8.9,7.9,11.2,12.1
+636,27,Female,499.0,1316.0,Urban,Nouvelle-Aquitaine,2006,13.96,Success,11.1,14.8,13.2,10.4,20.3
+637,22,Female,474.0,1683.0,Rural,Île-de-France,2008,11.92,Success,12.3,10.1,16.1,8.8,12.3
+638,20,Male,537.0,2435.0,Suburban,Île-de-France,2005,11.4,Success,11.7,6.0,8.7,15.1,15.5
+639,24,Female,405.0,2312.0,Rural,Grand Est,2005,14.18,Success,13.6,12.8,14.4,15.6,14.5
+640,28,Female,872.0,2448.0,Rural,Hauts-de-France,2006,12.2,Success,12.8,14.2,10.4,15.1,8.5
+641,28,Female,208.0,3137.0,Urban,Nouvelle-Aquitaine,2008,11.2,Success,12.8,9.6,14.5,11.7,7.4
+642,19,Female,540.0,2732.0,Urban,Grand Est,2005,11.56,Success,8.9,10.3,14.0,11.9,12.7
+643,29,Female,235.0,2778.0,Urban,Occitanie,2009,10.82,Success,6.9,10.1,12.5,8.8,15.8
+644,26,Female,834.0,3036.0,Suburban,Auvergne-Rhône-Alpes,2008,11.8,Success,15.4,11.0,6.5,13.2,12.9
+645,27,Female,539.0,3359.0,Urban,Auvergne-Rhône-Alpes,2006,12.88,Success,10.4,15.3,14.0,12.5,12.2
+646,27,Female,336.0,500.0,Suburban,Grand Est,2008,13.74,Success,11.9,11.7,13.5,20.5,11.1
+647,29,Female,771.0,2191.0,Urban,Auvergne-Rhône-Alpes,2007,12.8,Success,13.0,14.5,13.2,15.3,8.0
+648,18,Female,27.0,1794.0,Urban,Hauts-de-France,2007,12.12,Success,16.9,9.1,12.6,12.9,9.1
+649,23,Female,670.0,2880.0,Urban,Auvergne-Rhône-Alpes,2005,10.34,Success,12.5,10.8,9.4,11.9,7.1
+650,24,Male,888.0,2130.0,Urban,Hauts-de-France,2007,12.92,Success,10.8,14.9,15.2,15.0,8.7
+651,25,Male,645.0,2561.0,Suburban,Occitanie,2006,10.88,Success,10.4,9.6,14.7,9.3,10.4
+652,27,Male,473.0,3182.0,Urban,Nouvelle-Aquitaine,2005,13.08,Success,11.9,15.0,8.8,15.4,14.3
+653,26,Female,289.0,2018.0,Urban,Île-de-France,2006,10.94,Success,9.3,10.1,15.9,8.7,10.7
+654,19,Female,871.0,2790.0,Urban,Grand Est,2006,11.72,Success,12.1,11.0,12.4,10.3,12.8
+655,28,Female,832.0,3743.0,Suburban,Grand Est,2007,12.02,Success,11.8,17.0,12.4,6.5,12.4
+656,27,Male,439.0,3165.0,Rural,Hauts-de-France,2007,13.28,Success,16.9,10.7,11.5,13.8,13.5
+657,19,Female,445.0,1231.0,Urban,Occitanie,2006,11.5,Success,11.7,12.4,11.8,12.7,8.9
+658,22,Male,897.0,2267.0,Suburban,Occitanie,2007,12.32,Success,6.2,13.8,16.1,10.3,15.2
+659,22,Male,733.0,2785.0,Urban,Île-de-France,2007,12.96,Success,20.0,12.7,15.1,9.2,7.8
+660,23,Female,153.0,2942.0,Urban,Nouvelle-Aquitaine,2007,13.9,Success,14.9,12.8,15.0,16.1,10.7
+661,20,Female,551.0,2298.0,Suburban,Grand Est,2008,13.22,Success,18.2,11.8,12.6,11.6,11.9
+662,25,Male,542.0,1988.0,Urban,Hauts-de-France,2006,11.06,Success,8.5,8.1,14.7,9.7,14.3
+663,18,Male,662.0,2554.0,Suburban,Occitanie,2009,13.54,Success,11.3,13.0,9.5,17.8,16.1
+664,23,Male,602.0,1630.0,Urban,Grand Est,2006,12.38,Success,14.0,9.8,13.8,10.0,14.3
+665,21,Male,472.0,3380.0,Rural,Hauts-de-France,2005,14.2,Success,13.6,14.3,11.5,15.4,16.2
+666,18,Female,645.0,3995.0,Urban,Auvergne-Rhône-Alpes,2007,10.56,Success,12.9,16.1,5.8,8.5,9.5
+667,24,Male,488.0,2816.0,Suburban,Grand Est,2007,9.14,Failure,5.4,6.6,7.2,10.9,15.6
+668,26,Female,1454.0,2314.0,Rural,Nouvelle-Aquitaine,2009,12.32,Success,6.9,16.1,10.0,13.5,15.1
+669,21,Female,631.0,3253.0,Urban,Hauts-de-France,2005,11.44,Success,16.6,10.8,13.2,11.8,4.8
+670,21,Male,596.0,3118.0,Urban,Nouvelle-Aquitaine,2008,12.54,Success,17.1,11.6,10.0,12.7,11.3
+671,23,Male,1061.0,2280.0,Urban,Grand Est,2006,11.08,Success,11.7,9.3,10.2,10.4,13.8
+672,29,Male,259.0,2462.0,Suburban,Auvergne-Rhône-Alpes,2008,12.16,Success,16.2,12.6,14.3,7.2,10.5
+673,20,Male,573.0,2012.0,Urban,Nouvelle-Aquitaine,2005,11.3,Success,8.9,12.2,10.3,16.4,8.7
+674,29,Male,363.0,2632.0,Urban,Occitanie,2009,13.94,Success,9.6,15.2,16.0,10.6,18.3
+675,23,Female,759.0,2739.0,Suburban,Hauts-de-France,2005,11.84,Success,8.7,9.8,15.5,12.9,12.3
+676,24,Male,476.0,1876.0,Urban,Grand Est,2009,13.02,Success,9.5,17.0,12.1,14.1,12.4
+677,28,Other,745.0,1640.0,Suburban,Auvergne-Rhône-Alpes,2008,12.7,Success,14.2,14.0,14.3,12.9,8.1
+678,27,Male,727.0,1439.0,Urban,Occitanie,2008,11.14,Success,9.4,12.3,13.9,9.9,10.2
+679,27,Female,795.0,2833.0,Urban,Grand Est,2005,13.26,Success,18.7,11.5,11.3,15.5,9.3
+680,20,Female,731.0,2491.0,Suburban,Auvergne-Rhône-Alpes,2005,13.56,Success,13.4,11.1,14.6,13.5,15.2
+681,24,Female,544.0,2433.0,Suburban,Occitanie,2007,13.54,Success,15.3,11.3,15.0,12.6,13.5
+682,20,Female,251.0,2872.0,Urban,Nouvelle-Aquitaine,2009,11.58,Success,13.5,12.5,9.1,12.5,10.3
+683,19,Female,852.0,1779.0,Urban,Grand Est,2007,14.04,Success,15.6,11.4,12.5,17.0,13.7
+684,29,Female,952.0,1644.0,Urban,Grand Est,2006,10.58,Success,9.4,10.1,12.4,9.8,11.2
+685,27,Female,366.0,2693.0,Urban,Nouvelle-Aquitaine,2006,13.84,Success,16.3,12.5,14.5,13.2,12.7
+686,21,Female,784.0,1117.0,Urban,Île-de-France,2005,11.14,Success,12.4,9.5,10.7,10.4,12.7
+687,29,Male,307.0,2293.0,Urban,Occitanie,2008,11.66,Success,15.6,13.0,10.2,6.2,13.3
+688,25,Male,651.0,4473.0,Suburban,Nouvelle-Aquitaine,2006,10.1,Success,7.7,11.3,12.5,6.1,12.9
+689,26,Female,702.0,1421.0,Suburban,Grand Est,2006,12.88,Success,12.5,14.1,15.5,9.0,13.3
+690,24,Female,493.0,2156.0,Urban,Occitanie,2007,12.32,Success,12.4,15.0,8.4,10.0,15.8
+691,18,Female,624.0,802.0,Urban,Occitanie,2007,13.28,Success,10.1,15.0,8.9,18.5,13.9
+692,20,Female,812.0,2313.0,Urban,Île-de-France,2006,12.28,Success,12.9,13.0,10.4,14.1,11.0
+693,29,Other,573.0,4073.0,Suburban,Grand Est,2005,13.4,Success,16.6,13.3,11.0,14.4,11.7
+694,26,Male,431.0,2874.0,Rural,Auvergne-Rhône-Alpes,2007,10.68,Success,9.9,11.0,6.7,10.1,15.7
+695,29,Male,294.0,2009.0,Suburban,Île-de-France,2006,13.98,Success,14.9,14.0,16.5,12.2,12.3
+696,18,Male,502.0,4245.0,Suburban,Île-de-France,2008,12.88,Success,8.6,14.4,11.6,18.9,10.9
+697,26,Male,306.0,1106.0,Rural,Auvergne-Rhône-Alpes,2007,11.06,Success,18.3,7.3,11.2,8.4,10.1
+698,25,Female,506.0,2863.0,Urban,Auvergne-Rhône-Alpes,2006,14.12,Success,14.4,13.1,16.9,13.4,12.8
+699,18,Male,484.0,2552.0,Urban,Île-de-France,2009,14.74,Success,17.2,16.1,14.2,16.8,9.4
+700,23,Female,801.0,2302.0,Suburban,Occitanie,2007,13.22,Success,14.0,10.9,10.4,14.9,15.9
+701,22,Male,618.0,3146.0,Urban,Nouvelle-Aquitaine,2009,12.46,Success,13.2,10.3,12.5,17.4,8.9
+702,23,Female,1237.0,1554.0,Suburban,Nouvelle-Aquitaine,2007,13.2,Success,14.4,10.7,11.9,12.6,16.4
+703,27,Female,97.0,2750.0,Suburban,Île-de-France,2007,12.06,Success,11.6,7.5,16.3,13.8,11.1
+704,29,Male,678.0,2649.0,Suburban,Occitanie,2009,10.42,Success,7.1,12.4,11.5,12.3,8.8
+705,22,Female,487.0,1803.0,Urban,Auvergne-Rhône-Alpes,2005,11.86,Success,13.3,12.1,7.7,13.6,12.6
+706,23,Male,361.0,4060.0,Suburban,Hauts-de-France,2006,9.42,Failure,9.7,12.6,6.4,9.3,9.1
+707,22,Male,593.0,2355.0,Suburban,Île-de-France,2005,12.96,Success,8.7,13.2,16.4,14.4,12.1
+708,28,Male,574.0,2389.0,Rural,Grand Est,2005,11.26,Success,13.9,9.6,9.6,12.9,10.3
+709,29,Male,869.0,1678.0,Suburban,Occitanie,2006,13.0,Success,11.2,12.8,14.0,12.2,14.8
+710,22,Male,623.0,2369.0,Rural,Grand Est,2008,14.04,Success,15.1,13.3,12.2,17.2,12.4
+711,21,Female,427.0,4368.0,Urban,Grand Est,2005,10.1,Success,9.6,10.5,10.8,11.2,8.4
+712,20,Female,684.0,2298.0,Urban,Île-de-France,2005,12.18,Success,10.6,13.3,11.2,15.6,10.2
+713,20,Female,543.0,2915.0,Urban,Occitanie,2005,14.9,Success,15.5,12.2,16.8,15.9,14.1
+714,21,Male,319.0,3260.0,Urban,Grand Est,2008,12.22,Success,12.8,10.1,7.7,14.6,15.9
+715,26,Female,538.0,2355.0,Rural,Occitanie,2007,10.44,Success,7.6,12.8,10.8,9.1,11.9
+716,19,Male,658.0,2172.0,Rural,Nouvelle-Aquitaine,2009,12.12,Success,12.8,11.1,14.7,13.1,8.9
+717,26,Male,618.0,2878.0,Urban,Hauts-de-France,2009,14.36,Success,16.4,14.1,8.2,17.9,15.2
+718,18,Female,683.0,2307.0,Urban,Grand Est,2008,11.7,Success,10.6,11.3,16.0,6.5,14.1
+719,18,Male,468.0,2235.0,Urban,Grand Est,2005,12.78,Success,13.8,8.1,14.7,11.4,15.9
+720,22,Female,679.0,3252.0,Rural,Occitanie,2009,12.7,Success,9.5,12.8,12.8,15.5,12.9
+721,23,Female,630.0,2444.0,Urban,Hauts-de-France,2008,11.38,Success,11.6,12.7,10.5,11.7,10.4
+722,23,Male,632.0,3471.0,Urban,Nouvelle-Aquitaine,2006,11.98,Success,15.3,8.8,7.8,14.4,13.6
+723,20,Male,608.0,2426.0,Urban,Grand Est,2009,14.06,Success,12.7,14.3,14.1,16.2,13.0
+724,24,Male,1144.0,1446.0,Urban,Île-de-France,2006,14.64,Success,15.9,14.1,20.2,12.7,10.3
+725,26,Female,878.0,500.0,Rural,Occitanie,2005,12.24,Success,13.3,9.4,12.4,13.5,12.6
+726,28,Male,674.0,1029.0,Urban,Occitanie,2009,11.78,Success,18.7,10.0,6.5,12.3,11.4
+727,29,Male,400.0,1167.0,Urban,Grand Est,2008,11.88,Success,7.3,11.6,13.4,12.9,14.2
+728,27,Male,527.0,2713.0,Urban,Nouvelle-Aquitaine,2007,13.48,Success,11.3,9.7,14.6,18.3,13.5
+729,25,Female,1004.0,1723.0,Urban,Grand Est,2009,10.48,Success,8.7,13.9,9.2,11.8,8.8
+730,23,Male,459.0,921.0,Suburban,Auvergne-Rhône-Alpes,2009,10.18,Success,9.0,12.4,10.1,10.9,8.5
+731,29,Male,559.0,2395.0,Urban,Grand Est,2009,10.86,Success,9.0,8.7,9.8,15.1,11.7
+732,25,Female,545.0,1635.0,Urban,Hauts-de-France,2009,10.8,Success,12.5,9.5,10.4,9.5,12.1
+733,29,Female,692.0,2870.0,Rural,Hauts-de-France,2008,12.86,Success,12.7,15.6,11.5,10.2,14.3
+734,22,Male,491.0,2851.0,Urban,Auvergne-Rhône-Alpes,2008,12.6,Success,13.3,16.6,9.4,10.2,13.5
+735,25,Male,644.0,2935.0,Suburban,Hauts-de-France,2007,11.62,Success,8.6,13.6,8.3,11.2,16.4
+736,27,Male,496.0,500.0,Urban,Hauts-de-France,2008,11.38,Success,11.0,11.4,12.5,11.4,10.6
+737,29,Female,929.0,2536.0,Urban,Île-de-France,2008,11.16,Success,9.1,10.7,11.5,14.1,10.4
+738,21,Male,428.0,2403.0,Suburban,Occitanie,2005,11.84,Success,14.8,13.6,10.7,11.0,9.1
+739,27,Female,844.0,1523.0,Rural,Hauts-de-France,2005,12.44,Success,9.4,12.2,12.2,14.2,14.2
+740,25,Female,454.0,790.0,Suburban,Occitanie,2006,10.54,Success,11.4,7.2,7.4,14.6,12.1
+741,27,Female,387.0,2413.0,Urban,Nouvelle-Aquitaine,2007,11.6,Success,13.7,15.1,12.8,10.0,6.4
+742,29,Male,425.0,3351.0,Urban,Grand Est,2005,12.82,Success,10.2,16.0,10.8,14.5,12.6
+743,19,Female,172.0,500.0,Urban,Île-de-France,2007,13.72,Success,14.1,14.2,12.7,14.8,12.8
+744,29,Female,710.0,1834.0,Suburban,Auvergne-Rhône-Alpes,2007,11.4,Success,16.8,8.7,13.2,6.7,11.6
+745,29,Female,309.0,2605.0,Suburban,Nouvelle-Aquitaine,2009,12.78,Success,12.6,10.1,15.4,12.9,12.9
+746,22,Male,511.0,3400.0,Urban,Île-de-France,2007,10.44,Success,14.7,6.4,12.3,10.5,8.3
+747,26,Other,790.0,2250.0,Suburban,Île-de-France,2009,14.12,Success,5.8,16.8,15.2,15.9,16.9
+748,21,Male,782.0,4045.0,Suburban,Auvergne-Rhône-Alpes,2006,11.24,Success,10.7,10.9,11.0,10.5,13.1
+749,28,Male,242.0,1064.0,Urban,Auvergne-Rhône-Alpes,2006,11.5,Success,12.6,19.0,11.2,8.0,6.7
+750,23,Male,678.0,886.0,Suburban,Occitanie,2006,12.46,Success,8.8,17.9,11.7,11.9,12.0
+751,18,Female,885.0,3314.0,Urban,Grand Est,2009,11.74,Success,12.6,9.3,14.3,9.3,13.2
+752,26,Male,441.0,620.0,Urban,Nouvelle-Aquitaine,2009,12.44,Success,15.2,9.9,13.9,14.5,8.7
+753,18,Male,728.0,2869.0,Rural,Grand Est,2006,11.08,Success,6.4,13.4,12.4,9.6,13.6
+754,22,Male,314.0,2264.0,Urban,Nouvelle-Aquitaine,2009,10.46,Success,8.4,6.7,8.3,11.9,17.0
+755,21,Male,696.0,1779.0,Urban,Île-de-France,2008,12.76,Success,12.6,10.7,13.8,16.6,10.1
+756,29,Female,633.0,2159.0,Suburban,Hauts-de-France,2008,12.36,Success,13.4,10.4,9.4,15.3,13.3
+757,20,Female,765.0,1469.0,Rural,Hauts-de-France,2009,13.42,Success,14.2,17.6,9.3,13.4,12.6
+758,23,Male,750.0,2245.0,Rural,Auvergne-Rhône-Alpes,2009,11.98,Success,12.3,12.5,8.6,11.6,14.9
+759,19,Male,262.0,2514.0,Suburban,Auvergne-Rhône-Alpes,2005,12.22,Success,13.4,11.1,11.8,13.1,11.7
+760,20,Female,634.0,2167.0,Urban,Île-de-France,2005,12.66,Success,14.7,10.1,15.6,14.1,8.8
+761,22,Male,963.0,2032.0,Rural,Île-de-France,2007,11.66,Success,10.8,14.7,9.1,9.0,14.7
+762,26,Male,54.0,2703.0,Suburban,Nouvelle-Aquitaine,2007,12.26,Success,10.2,10.5,17.0,14.6,9.0
+763,19,Other,842.0,3828.0,Urban,Île-de-France,2007,12.82,Success,11.5,11.8,14.7,8.7,17.4
+764,27,Female,1000.0,2287.0,Rural,Nouvelle-Aquitaine,2006,11.54,Success,12.6,10.1,7.6,13.7,13.7
+765,25,Male,229.0,3156.0,Urban,Grand Est,2008,9.44,Failure,10.0,7.4,10.9,8.7,10.2
+766,19,Female,432.0,1727.0,Urban,Auvergne-Rhône-Alpes,2006,12.38,Success,10.8,9.0,8.9,17.9,15.3
+767,28,Male,729.0,1433.0,Rural,Auvergne-Rhône-Alpes,2009,12.8,Success,13.2,10.5,14.0,14.3,12.0
+768,22,Female,378.0,2863.0,Suburban,Hauts-de-France,2005,10.26,Success,12.5,11.2,9.0,7.3,11.3
+769,24,Male,941.0,2313.0,Urban,Hauts-de-France,2009,10.36,Success,11.4,11.3,7.1,12.0,10.0
+770,25,Male,865.0,3404.0,Urban,Auvergne-Rhône-Alpes,2009,9.26,Failure,6.8,11.7,11.0,10.4,6.4
+771,18,Male,254.0,3560.0,Suburban,Grand Est,2005,12.38,Success,12.0,10.5,15.5,10.1,13.8
+772,23,Female,414.0,3171.0,Urban,Grand Est,2009,11.2,Success,9.1,16.0,11.4,12.4,7.1
+773,18,Female,792.0,3154.0,Urban,Occitanie,2007,12.34,Success,14.9,14.8,13.2,9.2,9.6
+774,19,Male,783.0,500.0,Suburban,Nouvelle-Aquitaine,2005,12.72,Success,11.1,11.6,13.3,14.3,13.3
+775,18,Male,1155.0,2856.0,Rural,Hauts-de-France,2009,10.78,Success,9.0,12.8,7.5,14.1,10.5
+776,28,Female,380.0,3190.0,Suburban,Nouvelle-Aquitaine,2007,11.52,Success,11.8,10.9,9.3,13.1,12.5
+777,22,Male,965.0,1483.0,Suburban,Hauts-de-France,2007,10.32,Success,15.8,3.5,12.0,11.9,8.4
+778,27,Male,372.0,2507.0,Suburban,Occitanie,2008,12.26,Success,13.9,12.1,10.3,14.0,11.0
+779,26,Other,725.0,1666.0,Suburban,Auvergne-Rhône-Alpes,2007,13.92,Success,12.7,12.9,17.1,14.4,12.5
+780,23,Male,823.0,3322.0,Urban,Nouvelle-Aquitaine,2006,9.2,Failure,8.0,7.2,8.3,13.4,9.1
+781,28,Female,0.0,1735.0,Rural,Hauts-de-France,2005,12.98,Success,16.9,13.5,9.3,8.1,17.1
+782,28,Other,828.0,1866.0,Urban,Nouvelle-Aquitaine,2005,10.78,Success,10.1,11.2,12.9,9.6,10.1
+783,18,Male,946.0,2129.0,Urban,Auvergne-Rhône-Alpes,2005,13.04,Success,14.8,13.0,10.1,11.2,16.1
+784,18,Male,874.0,4300.0,Urban,Île-de-France,2009,8.92,Failure,11.0,11.2,3.3,7.6,11.5
+785,19,Male,1113.0,3304.0,Suburban,Hauts-de-France,2009,13.62,Success,14.5,15.8,17.8,12.7,7.3
+786,26,Female,841.0,3790.0,Urban,Île-de-France,2006,12.44,Success,15.9,12.7,8.8,16.2,8.6
+787,20,Female,466.0,1050.0,Urban,Occitanie,2007,14.18,Success,13.9,15.0,13.7,15.8,12.5
+788,18,Female,910.0,1485.0,Suburban,Grand Est,2009,13.42,Success,14.3,15.3,8.2,14.2,15.1
+789,22,Male,452.0,3571.0,Rural,Nouvelle-Aquitaine,2007,12.24,Success,11.7,8.6,9.4,14.2,17.3
+790,24,Female,621.0,1092.0,Suburban,Hauts-de-France,2007,11.72,Success,10.7,9.8,7.1,18.6,12.4
+791,23,Female,808.0,1963.0,Urban,Nouvelle-Aquitaine,2009,11.72,Success,12.4,13.4,9.8,14.5,8.5
+792,29,Female,712.0,4144.0,Urban,Occitanie,2009,11.92,Success,11.0,10.9,10.1,14.8,12.8
+793,18,Female,938.0,1729.0,Suburban,Occitanie,2006,11.9,Success,19.4,11.3,11.6,7.7,9.5
+794,22,Female,1222.0,1043.0,Urban,Nouvelle-Aquitaine,2008,13.0,Success,9.0,15.9,10.9,16.0,13.2
+795,22,Female,316.0,2538.0,Suburban,Hauts-de-France,2005,11.24,Success,15.0,11.1,7.7,13.2,9.2
+796,23,Female,518.0,1076.0,Urban,Auvergne-Rhône-Alpes,2009,10.12,Success,13.6,9.1,10.4,11.8,5.7
+797,20,Male,679.0,3490.0,Rural,Auvergne-Rhône-Alpes,2009,13.1,Success,12.7,9.5,16.3,11.0,16.0
+798,22,Male,484.0,1784.0,Urban,Grand Est,2007,14.52,Success,16.4,18.5,16.0,10.4,11.3
+799,24,Female,581.0,1624.0,Urban,Nouvelle-Aquitaine,2008,13.14,Success,12.9,11.5,13.4,15.8,12.1
+800,22,Male,794.0,2524.0,Rural,Nouvelle-Aquitaine,2009,11.78,Success,10.1,7.9,14.0,11.9,15.0
+801,22,Female,761.0,2176.0,Urban,Hauts-de-France,2008,13.18,Success,12.9,6.7,18.2,10.5,17.6
+802,22,Other,662.0,2702.0,Urban,Nouvelle-Aquitaine,2005,11.84,Success,11.5,10.1,13.7,9.7,14.2
+803,27,Female,637.0,2917.0,Rural,Hauts-de-France,2007,12.72,Success,13.5,11.4,13.9,12.5,12.3
+804,27,Male,544.0,2326.0,Urban,Nouvelle-Aquitaine,2006,12.16,Success,14.4,14.8,7.3,10.9,13.4
+805,20,Male,951.0,1571.0,Urban,Occitanie,2005,10.8,Success,9.4,14.6,8.7,10.2,11.1
+806,18,Male,1016.0,3084.0,Urban,Île-de-France,2008,11.9,Success,15.6,12.0,11.9,7.9,12.1
+807,22,Female,855.0,1945.0,Urban,Nouvelle-Aquitaine,2008,11.74,Success,11.2,10.6,9.6,14.9,12.4
+808,26,Female,313.0,1805.0,Urban,Île-de-France,2005,11.3,Success,13.3,13.0,9.0,11.6,9.6
+809,18,Female,534.0,2614.0,Suburban,Auvergne-Rhône-Alpes,2008,10.18,Success,13.9,6.8,9.4,8.7,12.1
+810,20,Male,650.0,957.0,Suburban,Grand Est,2006,12.6,Success,13.1,17.9,7.7,11.2,13.1
+811,21,Female,365.0,2813.0,Urban,Auvergne-Rhône-Alpes,2006,12.5,Success,11.7,14.0,9.6,13.6,13.6
+812,18,Female,620.0,2657.0,Urban,Nouvelle-Aquitaine,2008,12.7,Success,10.5,14.6,13.0,12.1,13.3
+813,18,Male,606.0,3397.0,Rural,Hauts-de-France,2008,11.6,Success,11.2,8.8,17.4,12.6,8.0
+814,25,Female,871.0,2100.0,Rural,Auvergne-Rhône-Alpes,2006,14.94,Success,16.7,15.8,14.4,12.1,15.7
+815,19,Male,475.0,3560.0,Urban,Occitanie,2008,11.5,Success,9.4,10.6,13.9,8.2,15.4
+816,29,Male,891.0,2924.0,Rural,Île-de-France,2009,10.5,Success,9.8,9.1,7.1,14.8,11.7
+817,25,Female,361.0,2479.0,Suburban,Hauts-de-France,2007,10.86,Success,9.7,11.9,12.4,6.9,13.4
+818,24,Male,396.0,3953.0,Urban,Hauts-de-France,2009,12.16,Success,12.4,11.8,11.8,13.4,11.4
+819,27,Female,505.0,2576.0,Urban,Nouvelle-Aquitaine,2008,11.44,Success,7.4,8.8,12.9,13.8,14.3
+820,27,Female,612.0,2085.0,Urban,Occitanie,2008,9.8,Failure,7.9,9.3,10.9,11.3,9.6
+821,19,Female,0.0,2599.0,Rural,Île-de-France,2007,13.28,Success,11.2,9.1,17.0,13.1,16.0
+822,23,Male,715.0,2069.0,Suburban,Occitanie,2008,10.94,Success,8.1,9.1,12.2,11.2,14.1
+823,23,Female,1027.0,2799.0,Suburban,Auvergne-Rhône-Alpes,2007,11.8,Success,8.4,10.8,12.5,13.1,14.2
+824,20,Female,763.0,3557.0,Urban,Nouvelle-Aquitaine,2006,9.76,Failure,8.2,7.8,6.1,15.0,11.7
+825,28,Female,547.0,2494.0,Suburban,Hauts-de-France,2007,9.7,Failure,9.5,9.9,11.7,9.6,7.8
+826,19,Male,329.0,2572.0,Suburban,Hauts-de-France,2007,14.68,Success,14.2,15.1,15.4,14.0,14.7
+827,29,Male,147.0,3138.0,Rural,Auvergne-Rhône-Alpes,2009,13.62,Success,14.9,14.5,13.7,17.1,7.9
+828,18,Female,189.0,3450.0,Urban,Hauts-de-France,2008,11.94,Success,17.8,8.9,5.5,12.8,14.7
+829,23,Male,567.0,2138.0,Suburban,Grand Est,2006,12.68,Success,17.6,14.9,10.7,10.5,9.7
+830,29,Female,1127.0,2638.0,Urban,Nouvelle-Aquitaine,2005,12.74,Success,14.4,6.1,17.2,18.8,7.2
+831,22,Female,0.0,3142.0,Suburban,Auvergne-Rhône-Alpes,2007,14.04,Success,15.1,19.3,11.5,12.3,12.0
+832,28,Female,775.0,2764.0,Suburban,Nouvelle-Aquitaine,2005,13.9,Success,12.4,15.9,13.0,12.7,15.5
+833,26,Female,431.0,1010.0,Urban,Île-de-France,2008,12.54,Success,13.6,10.3,16.9,12.8,9.1
+834,18,Female,516.0,3286.0,Suburban,Nouvelle-Aquitaine,2007,14.5,Success,17.8,13.1,11.5,13.3,16.8
+835,24,Female,366.0,2918.0,Urban,Nouvelle-Aquitaine,2005,12.06,Success,13.1,7.8,14.4,11.0,14.0
+836,22,Female,258.0,2975.0,Rural,Île-de-France,2009,13.2,Success,15.5,12.2,13.2,12.6,12.5
+837,22,Female,631.0,1546.0,Urban,Auvergne-Rhône-Alpes,2005,12.02,Success,9.2,11.4,13.9,14.9,10.7
+838,19,Male,666.0,2622.0,Suburban,Nouvelle-Aquitaine,2009,10.88,Success,10.0,9.5,13.1,10.9,10.9
+839,28,Male,767.0,3175.0,Rural,Occitanie,2006,11.58,Success,12.9,10.6,10.4,10.7,13.3
+840,20,Female,179.0,1796.0,Urban,Nouvelle-Aquitaine,2008,11.8,Success,12.4,10.3,10.7,11.1,14.5
+841,24,Male,818.0,2004.0,Suburban,Auvergne-Rhône-Alpes,2005,9.4,Failure,10.1,8.6,9.4,8.7,10.2
+842,23,Male,823.0,3188.0,Urban,Hauts-de-France,2007,11.06,Success,19.2,9.4,7.1,10.0,9.6
+843,29,Male,706.0,1966.0,Urban,Île-de-France,2008,11.42,Success,12.5,7.7,15.7,9.8,11.4
+844,19,Female,495.0,2333.0,Suburban,Hauts-de-France,2005,13.1,Success,10.7,14.6,12.0,12.0,16.2
+845,23,Female,677.0,1672.0,Suburban,Auvergne-Rhône-Alpes,2007,12.02,Success,12.5,9.2,15.6,14.5,8.3
+846,19,Female,560.0,3956.0,Rural,Grand Est,2007,13.78,Success,12.1,8.3,16.7,16.4,15.4
+847,19,Female,842.0,2916.0,Rural,Hauts-de-France,2007,12.72,Success,12.6,14.5,12.2,12.2,12.1
+848,19,Female,508.0,2296.0,Suburban,Nouvelle-Aquitaine,2007,9.76,Failure,7.2,13.1,8.1,13.4,7.0
+849,28,Male,627.0,2146.0,Suburban,Nouvelle-Aquitaine,2005,13.0,Success,15.9,14.4,11.4,12.7,10.6
+850,20,Female,165.0,1517.0,Rural,Île-de-France,2006,12.04,Success,16.0,14.7,10.0,5.7,13.8
+851,19,Male,676.0,2412.0,Urban,Nouvelle-Aquitaine,2009,13.26,Success,16.4,17.8,6.1,8.6,17.4
+852,21,Female,413.0,3032.0,Urban,Occitanie,2009,11.46,Success,13.0,11.5,10.5,14.3,8.0
+853,26,Female,728.0,1852.0,Urban,Occitanie,2009,10.3,Success,14.0,7.6,11.8,14.6,3.5
+854,23,Male,797.0,2584.0,Rural,Hauts-de-France,2006,10.98,Success,9.4,12.8,10.1,14.5,8.1
+855,18,Male,448.0,2206.0,Suburban,Auvergne-Rhône-Alpes,2007,12.22,Success,14.5,10.0,9.7,11.5,15.4
+856,25,Male,608.0,3604.0,Suburban,Île-de-France,2007,8.54,Failure,12.8,9.1,8.2,6.0,6.6
+857,29,Male,644.0,1991.0,Urban,Grand Est,2008,12.18,Success,10.6,12.3,12.6,8.9,16.5
+858,24,Male,692.0,3122.0,Rural,Hauts-de-France,2009,14.36,Success,14.6,14.6,17.6,9.4,15.6
+859,27,Female,797.0,3615.0,Urban,Auvergne-Rhône-Alpes,2009,13.3,Success,14.7,9.5,15.8,13.9,12.6
+860,20,Female,765.0,2198.0,Suburban,Île-de-France,2007,12.6,Success,12.2,15.8,14.0,10.9,10.1
+861,18,Female,505.0,2029.0,Urban,Île-de-France,2009,13.12,Success,13.3,9.0,14.0,17.1,12.2
+862,22,Female,1000.0,3238.0,Urban,Hauts-de-France,2007,12.4,Success,8.9,11.3,11.6,16.4,13.8
+863,21,Female,788.0,1075.0,Suburban,Auvergne-Rhône-Alpes,2007,13.18,Success,15.7,13.2,6.6,17.0,13.4
+864,27,Female,951.0,2844.0,Rural,Auvergne-Rhône-Alpes,2007,11.5,Success,9.3,10.8,10.9,9.3,17.2
+865,25,Male,687.0,1240.0,Urban,Nouvelle-Aquitaine,2005,10.08,Success,9.9,6.7,9.1,13.5,11.2
+866,18,Female,701.0,3478.0,Urban,Grand Est,2005,11.64,Success,12.2,14.8,12.5,10.6,8.1
+867,27,Male,571.0,2298.0,Urban,Occitanie,2005,12.34,Success,15.3,10.1,15.7,13.0,7.6
+868,18,Other,489.0,2427.0,Urban,Nouvelle-Aquitaine,2005,12.8,Success,15.3,14.2,17.9,9.6,7.0
+869,29,Female,844.0,1921.0,Urban,Île-de-France,2006,12.14,Success,12.0,8.2,12.2,15.7,12.6
+870,21,Female,666.0,1234.0,Suburban,Grand Est,2008,10.18,Success,14.3,8.7,7.0,9.6,11.3
+871,25,Male,567.0,3513.0,Rural,Grand Est,2008,10.4,Success,6.9,14.6,12.2,6.2,12.1
+872,22,Female,344.0,2363.0,Urban,Auvergne-Rhône-Alpes,2007,12.72,Success,9.8,13.0,12.3,18.1,10.4
+873,19,Female,989.0,5067.0,Suburban,Grand Est,2009,11.32,Success,9.9,10.7,14.0,13.3,8.7
+874,23,Male,628.0,1852.0,Urban,Hauts-de-France,2005,12.68,Success,15.8,13.1,11.9,8.8,13.8
+875,22,Male,293.0,1983.0,Urban,Grand Est,2008,10.28,Success,14.0,9.1,12.2,11.5,4.6
+876,19,Female,620.0,1782.0,Urban,Île-de-France,2008,10.98,Success,12.6,12.3,10.1,10.3,9.6
+877,28,Male,550.0,2359.0,Suburban,Hauts-de-France,2005,12.54,Success,12.8,12.4,11.1,12.0,14.4
+878,28,Female,540.0,3760.0,Urban,Hauts-de-France,2006,12.96,Success,16.7,10.9,13.5,14.4,9.3
+879,28,Male,744.0,3308.0,Urban,Nouvelle-Aquitaine,2006,10.82,Success,11.5,9.5,6.0,13.9,13.2
+880,20,Male,550.0,1296.0,Urban,Grand Est,2008,10.74,Success,8.1,12.2,11.0,12.8,9.6
+881,26,Female,524.0,3463.0,Urban,Auvergne-Rhône-Alpes,2006,12.76,Success,15.3,11.8,14.1,12.0,10.6
+882,24,Male,941.0,3046.0,Urban,Nouvelle-Aquitaine,2005,13.78,Success,12.5,10.6,16.9,15.2,13.7
+883,24,Female,165.0,2885.0,Rural,Auvergne-Rhône-Alpes,2008,9.8,Failure,14.9,8.9,10.8,6.2,8.2
+884,28,Male,587.0,1953.0,Suburban,Grand Est,2005,12.7,Success,11.9,12.0,15.6,9.8,14.2
+885,23,Male,832.0,2012.0,Rural,Nouvelle-Aquitaine,2006,11.68,Success,9.5,10.6,17.1,9.1,12.1
+886,25,Female,757.0,2610.0,Urban,Grand Est,2005,12.74,Success,13.2,8.9,10.8,15.0,15.8
+887,21,Female,855.0,2057.0,Urban,Île-de-France,2006,11.36,Success,12.0,12.1,10.3,9.8,12.6
+888,25,Female,1105.0,3550.0,Urban,Nouvelle-Aquitaine,2006,11.56,Success,12.6,16.8,11.5,8.1,8.8
+889,21,Female,1025.0,2023.0,Urban,Auvergne-Rhône-Alpes,2005,14.06,Success,16.8,10.9,11.8,13.6,17.2
+890,25,Female,311.0,943.0,Suburban,Île-de-France,2006,11.76,Success,8.7,16.5,15.3,9.3,9.0
+891,26,Male,197.0,1459.0,Urban,Occitanie,2007,12.62,Success,12.9,18.3,9.7,10.9,11.3
+892,20,Male,682.0,1510.0,Urban,Auvergne-Rhône-Alpes,2005,13.84,Success,9.5,9.1,16.6,19.1,14.9
+893,20,Female,261.0,2289.0,Suburban,Grand Est,2007,9.32,Failure,4.2,12.0,9.6,14.4,6.4
+894,28,Female,118.0,2673.0,Urban,Auvergne-Rhône-Alpes,2005,13.22,Success,11.9,18.3,8.2,11.4,16.3
+895,19,Female,679.0,2543.0,Rural,Occitanie,2006,11.48,Success,12.1,11.6,13.6,11.6,8.5
+896,27,Male,742.0,2869.0,Urban,Auvergne-Rhône-Alpes,2006,13.4,Success,13.9,12.1,15.7,14.7,10.6
+897,20,Male,1028.0,2298.0,Suburban,Île-de-France,2008,11.54,Success,11.3,7.0,12.5,14.0,12.9
+898,20,Female,792.0,2326.0,Urban,Hauts-de-France,2008,11.06,Success,7.5,10.4,13.3,12.2,11.9
+899,22,Female,1080.0,3901.0,Rural,Auvergne-Rhône-Alpes,2007,13.56,Success,9.5,13.7,17.9,12.3,14.4
+900,22,Female,689.0,3464.0,Urban,Nouvelle-Aquitaine,2006,13.16,Success,16.0,19.3,15.7,7.6,7.2
+901,19,Female,316.0,2827.0,Suburban,Occitanie,2008,10.82,Success,9.5,11.4,12.1,6.9,14.2
+902,29,Female,806.0,3233.0,Urban,Auvergne-Rhône-Alpes,2006,12.06,Success,16.7,7.0,10.7,11.5,14.4
+903,27,Male,934.0,959.0,Suburban,Occitanie,2005,12.68,Success,15.1,7.8,15.3,10.1,15.1
+904,23,Male,698.0,1842.0,Urban,Hauts-de-France,2008,11.68,Success,11.0,11.9,14.5,13.8,7.2
+905,22,Male,963.0,2154.0,Urban,Île-de-France,2007,11.76,Success,9.8,15.5,13.3,12.6,7.6
+906,23,Male,569.0,1851.0,Rural,Nouvelle-Aquitaine,2008,12.14,Success,15.1,13.9,11.0,9.7,11.0
+907,18,Female,736.0,1263.0,Rural,Grand Est,2006,11.38,Success,11.3,13.4,11.8,12.5,7.9
+908,22,Male,556.0,2836.0,Urban,Auvergne-Rhône-Alpes,2009,10.44,Success,7.4,15.9,11.6,10.7,6.6
+909,26,Female,1195.0,3609.0,Rural,Île-de-France,2009,12.72,Success,13.7,9.8,11.1,18.2,10.8
+910,29,Male,810.0,2490.0,Urban,Occitanie,2006,12.3,Success,13.3,12.1,10.2,13.2,12.7
+911,27,Male,321.0,3019.0,Rural,Hauts-de-France,2005,13.26,Success,15.4,10.4,12.8,7.3,20.4
+912,19,Male,1063.0,2466.0,Suburban,Occitanie,2008,13.08,Success,13.0,11.2,10.1,17.5,13.6
+913,18,Male,417.0,2147.0,Urban,Hauts-de-France,2009,11.86,Success,10.4,9.0,12.5,10.1,17.3
+914,27,Female,603.0,3235.0,Rural,Hauts-de-France,2005,10.7,Success,15.8,11.0,5.7,9.1,11.9
+915,28,Male,717.0,1357.0,Rural,Île-de-France,2006,14.06,Success,16.1,11.9,10.2,18.4,13.7
+916,26,Female,737.0,1009.0,Urban,Auvergne-Rhône-Alpes,2005,12.7,Success,12.7,10.9,15.3,13.0,11.6
+917,27,Male,721.0,1346.0,Suburban,Grand Est,2006,13.42,Success,12.2,11.5,9.3,14.1,20.0
+918,26,Male,317.0,3183.0,Urban,Auvergne-Rhône-Alpes,2008,11.82,Success,8.0,13.2,13.8,14.2,9.9
+919,26,Male,722.0,2570.0,Rural,Nouvelle-Aquitaine,2005,11.44,Success,10.2,15.7,9.5,11.4,10.4
+920,23,Female,875.0,2801.0,Suburban,Auvergne-Rhône-Alpes,2008,13.84,Success,14.3,15.9,14.3,10.3,14.4
+921,25,Female,868.0,3842.0,Urban,Hauts-de-France,2005,11.82,Success,10.3,14.3,11.1,10.8,12.6
+922,28,Male,275.0,1569.0,Suburban,Hauts-de-France,2006,10.86,Success,7.6,8.2,11.0,16.8,10.7
+923,18,Male,436.0,3463.0,Suburban,Nouvelle-Aquitaine,2006,14.62,Success,22.5,10.9,12.2,12.6,14.9
+924,27,Female,339.0,2183.0,Suburban,Occitanie,2005,10.92,Success,7.6,11.2,8.0,15.9,11.9
+925,21,Male,685.0,2061.0,Urban,Hauts-de-France,2006,13.48,Success,18.8,10.0,14.9,11.8,11.9
+926,18,Male,212.0,2565.0,Urban,Nouvelle-Aquitaine,2007,12.48,Success,11.1,13.0,15.9,9.7,12.7
+927,25,Female,319.0,2690.0,Suburban,Hauts-de-France,2007,8.86,Failure,11.7,7.2,10.9,7.7,6.8
+928,18,Female,434.0,2332.0,Urban,Grand Est,2008,12.36,Success,10.0,17.1,13.6,13.9,7.2
+929,20,Male,151.0,2988.0,Urban,Hauts-de-France,2007,15.32,Success,14.3,15.6,14.3,17.1,15.3
+930,21,Female,593.0,2568.0,Suburban,Île-de-France,2007,10.42,Success,7.7,13.4,11.7,9.3,10.0
+931,25,Female,73.0,2341.0,Urban,Nouvelle-Aquitaine,2009,10.42,Success,6.5,11.8,8.7,13.5,11.6
+932,23,Male,721.0,2167.0,Suburban,Auvergne-Rhône-Alpes,2009,14.8,Success,16.8,15.7,16.8,7.9,16.8
+933,27,Female,501.0,2691.0,Suburban,Nouvelle-Aquitaine,2009,11.3,Success,9.6,14.1,10.8,10.3,11.7
+934,29,Female,444.0,1415.0,Suburban,Occitanie,2009,12.78,Success,14.2,15.3,10.2,12.8,11.4
+935,24,Male,485.0,1640.0,Urban,Hauts-de-France,2006,11.78,Success,8.7,11.8,16.9,6.8,14.7
+936,25,Male,585.0,2206.0,Urban,Nouvelle-Aquitaine,2008,13.48,Success,14.1,17.4,13.8,11.9,10.2
+937,19,Male,748.0,2936.0,Urban,Grand Est,2008,14.1,Success,17.1,15.5,12.8,9.5,15.6
+938,27,Female,929.0,4214.0,Rural,Nouvelle-Aquitaine,2007,12.28,Success,10.4,13.5,9.1,13.8,14.6
+939,28,Male,853.0,2373.0,Urban,Grand Est,2008,13.08,Success,6.2,15.8,14.4,11.5,17.5
+940,25,Female,1158.0,1081.0,Rural,Hauts-de-France,2007,14.64,Success,17.1,10.7,20.7,14.8,9.9
+941,20,Female,769.0,1868.0,Suburban,Auvergne-Rhône-Alpes,2008,13.04,Success,14.8,8.5,14.6,11.2,16.1
+942,24,Male,635.0,3027.0,Rural,Hauts-de-France,2005,11.74,Success,10.6,13.0,13.5,7.9,13.7
+943,20,Female,486.0,1724.0,Urban,Occitanie,2005,10.56,Success,11.3,11.8,14.2,7.5,8.0
+944,24,Male,494.0,1455.0,Urban,Île-de-France,2008,8.32,Failure,8.7,11.4,11.0,6.3,4.2
+945,28,Female,735.0,3023.0,Rural,Auvergne-Rhône-Alpes,2006,13.28,Success,16.3,15.6,11.0,13.9,9.6
+946,29,Female,350.0,2872.0,Urban,Auvergne-Rhône-Alpes,2007,13.28,Success,10.4,12.5,10.9,19.7,12.9
+947,19,Male,657.0,1322.0,Urban,Île-de-France,2008,11.48,Success,7.7,12.8,10.3,13.3,13.3
+948,27,Male,595.0,1784.0,Urban,Nouvelle-Aquitaine,2007,12.66,Success,12.6,11.0,10.9,17.0,11.8
+949,23,Male,418.0,3496.0,Rural,Hauts-de-France,2009,12.42,Success,9.4,14.6,10.9,15.4,11.8
+950,20,Male,337.0,3182.0,Suburban,Nouvelle-Aquitaine,2008,11.26,Success,8.9,14.1,11.3,10.4,11.6
+951,20,Male,1231.0,1542.0,Suburban,Nouvelle-Aquitaine,2006,13.48,Success,10.7,14.6,11.2,15.8,15.1
+952,26,Male,251.0,909.0,Suburban,Hauts-de-France,2009,10.76,Success,12.3,10.5,12.7,10.6,7.7
+953,24,Other,583.0,2715.0,Urban,Occitanie,2008,11.88,Success,7.9,15.9,12.2,10.6,12.8
+954,22,Male,906.0,2263.0,Suburban,Auvergne-Rhône-Alpes,2005,13.42,Success,16.2,17.5,12.5,11.4,9.5
+955,29,Male,732.0,2645.0,Urban,Grand Est,2008,13.18,Success,14.0,14.5,16.6,11.5,9.3
+956,27,Female,482.0,3008.0,Rural,Île-de-France,2005,12.44,Success,10.9,9.6,12.2,14.0,15.5
+957,24,Male,302.0,1735.0,Urban,Auvergne-Rhône-Alpes,2005,11.32,Success,9.3,9.6,18.6,10.0,9.1
+958,26,Other,632.0,2154.0,Urban,Nouvelle-Aquitaine,2008,12.4,Success,11.7,10.9,13.1,14.7,11.6
+959,18,Female,0.0,1781.0,Suburban,Île-de-France,2008,13.64,Success,14.7,10.3,10.7,14.6,17.9
+960,24,Female,642.0,1809.0,Urban,Grand Est,2005,13.9,Success,14.2,11.8,16.0,13.0,14.5
+961,23,Male,609.0,2952.0,Suburban,Auvergne-Rhône-Alpes,2007,13.86,Success,15.2,13.9,11.8,17.8,10.6
+962,27,Male,868.0,2615.0,Urban,Auvergne-Rhône-Alpes,2009,11.02,Success,10.6,12.9,4.8,15.9,10.9
+963,29,Male,314.0,1250.0,Urban,Occitanie,2006,10.26,Success,3.2,12.6,12.0,15.2,8.3
+964,26,Female,519.0,3080.0,Urban,Auvergne-Rhône-Alpes,2008,13.28,Success,15.7,11.3,11.3,12.2,15.9
+965,18,Male,709.0,2220.0,Suburban,Auvergne-Rhône-Alpes,2009,13.64,Success,11.5,11.8,16.8,13.1,15.0
+966,21,Male,651.0,3117.0,Urban,Grand Est,2009,13.08,Success,14.0,14.4,9.3,13.6,14.1
+967,26,Other,264.0,1688.0,Suburban,Grand Est,2007,12.08,Success,17.0,6.0,11.0,12.0,14.4
+968,21,Male,438.0,1759.0,Urban,Île-de-France,2009,13.54,Success,19.3,12.0,15.8,10.9,9.7
+969,27,Male,950.0,2701.0,Urban,Nouvelle-Aquitaine,2008,9.68,Failure,10.1,12.9,13.2,4.8,7.4
+970,20,Male,665.0,1623.0,Urban,Grand Est,2009,13.24,Success,12.4,14.4,11.5,14.2,13.7
+971,26,Other,184.0,2280.0,Rural,Île-de-France,2008,12.92,Success,16.1,9.0,9.7,15.1,14.7
+972,19,Male,821.0,1532.0,Suburban,Auvergne-Rhône-Alpes,2008,11.34,Success,9.5,8.8,13.1,8.5,16.8
+973,21,Female,200.0,2187.0,Urban,Île-de-France,2005,12.24,Success,10.3,13.8,11.9,13.8,11.4
+974,23,Female,523.0,2475.0,Suburban,Île-de-France,2007,9.48,Failure,10.2,6.3,9.7,10.2,11.0
+975,19,Male,741.0,2512.0,Rural,Île-de-France,2006,12.0,Success,11.9,16.0,9.9,10.9,11.3
+976,25,Female,903.0,2208.0,Urban,Hauts-de-France,2005,12.7,Success,11.3,12.7,9.6,15.9,14.0
+977,25,Male,16.0,2767.0,Rural,Île-de-France,2006,11.22,Success,10.2,16.7,9.0,9.0,11.2
+978,18,Male,778.0,2618.0,Urban,Grand Est,2008,10.68,Success,9.1,8.7,14.8,9.0,11.8
+979,29,Female,815.0,2429.0,Rural,Hauts-de-France,2005,14.28,Success,14.4,10.7,14.4,17.4,14.5
+980,20,Female,461.0,1999.0,Suburban,Nouvelle-Aquitaine,2009,11.46,Success,16.0,4.8,14.8,11.6,10.1
+981,27,Female,623.0,3355.0,Urban,Île-de-France,2009,13.98,Success,16.4,9.6,12.0,15.7,16.2
+982,26,Female,0.0,2809.0,Urban,Occitanie,2006,10.88,Success,10.6,11.4,11.3,7.2,13.9
+983,22,Male,0.0,1671.0,Rural,Auvergne-Rhône-Alpes,2008,9.16,Failure,14.6,6.1,11.3,7.4,6.4
+984,23,Male,877.0,3019.0,Suburban,Auvergne-Rhône-Alpes,2006,11.68,Success,12.7,10.8,15.1,9.3,10.5
+985,21,Male,465.0,3200.0,Suburban,Hauts-de-France,2007,7.86,Failure,10.3,6.0,6.5,10.6,5.9
+986,27,Male,513.0,2435.0,Urban,Auvergne-Rhône-Alpes,2009,11.02,Success,14.2,11.2,10.5,7.8,11.4
+987,19,Male,659.0,2488.0,Urban,Auvergne-Rhône-Alpes,2005,11.7,Success,10.2,15.4,9.3,13.1,10.5
+988,28,Male,509.0,853.0,Urban,Hauts-de-France,2005,13.34,Success,10.9,11.9,16.1,13.3,14.5
+989,25,Male,485.0,1825.0,Urban,Auvergne-Rhône-Alpes,2005,10.84,Success,7.9,17.0,10.6,9.3,9.4
+990,28,Male,699.0,3175.0,Suburban,Île-de-France,2009,10.96,Success,10.6,14.4,7.1,9.5,13.2
+991,23,Female,226.0,1874.0,Rural,Nouvelle-Aquitaine,2008,13.02,Success,12.8,16.0,12.7,9.9,13.7
+992,22,Female,890.0,2372.0,Suburban,Hauts-de-France,2009,11.72,Success,16.7,9.7,10.9,8.5,12.8
+993,26,Male,542.0,1813.0,Urban,Occitanie,2009,9.9,Failure,10.9,9.6,10.3,3.3,15.4
+994,18,Female,349.0,2685.0,Suburban,Hauts-de-France,2005,12.36,Success,8.9,13.0,10.0,11.7,18.2
+995,22,Female,315.0,2815.0,Rural,Grand Est,2009,11.34,Success,16.5,7.3,9.9,10.7,12.3
+996,23,Male,611.0,2836.0,Suburban,Occitanie,2005,12.44,Success,10.5,13.4,14.1,11.0,13.2
+997,22,Female,523.0,1589.0,Suburban,Grand Est,2008,9.78,Failure,6.8,11.0,12.7,9.0,9.4
+998,23,Female,213.0,2585.0,Rural,Hauts-de-France,2007,12.62,Success,12.4,16.0,11.4,14.4,8.9
+999,23,Female,450.0,3761.0,Suburban,Grand Est,2005,13.62,Success,11.0,14.0,8.7,19.3,15.1
+1000,24,Male,398.0,3099.0,Urban,Occitanie,2006,13.98,Success,18.9,15.3,11.5,9.5,14.7

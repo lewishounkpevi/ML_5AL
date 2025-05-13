@@ -10,8 +10,6 @@ from .utils import (
     notify_done,
 )
 
-from .predict import predict_student_status
-
 from .model_training import train_with_gridsearch
 
 from .data_processing import load_data, preprocess_data, prepare_train_test

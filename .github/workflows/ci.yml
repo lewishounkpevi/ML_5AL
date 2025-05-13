@@ -46,8 +46,11 @@ jobs:
             curl --fail http://127.0.0.1:8000/docs && break || sleep 3
           done
 
-      - name: 🤔 Run unit tests with pytest (avec API_URL)
-        run: pytest tests/
+      - name: ➕ Ajouter PYTHONPATH pour tests internes
+        run: echo "PYTHONPATH=$(pwd)/src" >> $GITHUB_ENV
+
+      - name: 🧪 Run all tests (API + ML)
+        run: pytest tests/test_api.py tests/test_data_model.py
 
       - name: ✅ CI terminé avec succès
         run: echo "🚀 Tout est OK !"

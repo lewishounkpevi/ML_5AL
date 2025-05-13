@@ -58,6 +58,33 @@ def train_kmeans_with_silhouette(data_path: str, save_path: str = "app"):
     print(f"📦 Modèle et scaler enregistrés dans {save_path}/")
 
 
+def fit_cluster_model(df, k_range=(2, 10)):
+    grade_cols = [
+        "Grade_Math", "Grade_Programming", "Grade_Algorithms",
+        "Grade_Databases", "Grade_Software_Engineering"
+    ]
+    df = df.dropna(subset=grade_cols)
+    X = df[grade_cols]
+
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+
+    best_score = -1
+    best_model = None
+    best_labels = None
+
+    for k in range(k_range[0], k_range[1] + 1):
+        kmeans = KMeans(n_clusters=k, n_init=10, random_state=42)
+        labels = kmeans.fit_predict(X_scaled)
+        score = silhouette_score(X_scaled, labels)
+        if score > best_score:
+            best_score = score
+            best_model = kmeans
+            best_labels = labels
+
+    return best_model, best_labels, best_score
+
+
 # Exemple d'appel
 if __name__ == "__main__":
     train_kmeans_with_silhouette("data/raw_data/students_dataset.csv")
