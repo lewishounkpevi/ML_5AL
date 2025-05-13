@@ -8,6 +8,11 @@ from src.clustering_training import train_kmeans_with_silhouette, fit_cluster_mo
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
+
+
 
 def generate_df(n=1000, years=5):
     tmp_dir = tempfile.mkdtemp()

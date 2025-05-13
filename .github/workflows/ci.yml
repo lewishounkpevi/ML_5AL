@@ -50,7 +50,7 @@ jobs:
         run: echo "PYTHONPATH=$(pwd)/src" >> $GITHUB_ENV
 
       - name: 🧪 Run all tests (API + ML)
-        run: PYTHONPATH=src pytest tests/
+        run: pytest tests/
 
       - name: ✅ CI terminé avec succès
         run: echo "🚀 Tout est OK !"
